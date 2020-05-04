@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.75, 26.25" name="Store">
+  <DataContextMoniker Name="/StoreDataContext" />
+  <nestedChildShapes>
+    <classShape Id="da3ab215-011c-4bea-be82-83cb33204d5e" absoluteBounds="9.75, 11.5, 2, 14.462791341145831">
+      <DataClassMoniker Name="/StoreDataContext/QuestionT1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6ba506d-696e-4986-9539-cb428d1c6919" absoluteBounds="9.765, 11.96, 1.9700000000000002, 13.902791341145832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc915524-d8a7-4b6b-8bc9-1dc00a39b989" absoluteBounds="12.5, 18.125, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/StoreDataContext/SubQuestionT1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e84fadb-1e7c-421d-a92c-47fac66ce961" absoluteBounds="12.515, 18.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.75 : 18.8181469726563); (12.5 : 18.8181469726563)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StoreDataContext/QuestionT1/QuestionT1_SubQuestionT1" />
+      <nodes>
+        <classShapeMoniker Id="da3ab215-011c-4bea-be82-83cb33204d5e" />
+        <classShapeMoniker Id="fc915524-d8a7-4b6b-8bc9-1dc00a39b989" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="197f30b8-737b-4ebc-9b44-fd322d8f9031" absoluteBounds="6.75, 1.625, 2, 15.231997070312502">
+      <DataClassMoniker Name="/StoreDataContext/QuestionT2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0954fa16-77d8-4fa6-8626-e9966b1b844d" absoluteBounds="6.765, 2.085, 1.9700000000000002, 14.6719970703125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7d54a83b-ebe8-4741-a2de-6084ceb9ed24" absoluteBounds="0.75, 1.5, 2, 14.270489908854167">
+      <DataClassMoniker Name="/StoreDataContext/QuestionT3" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad4c73a7-cd55-4496-81d7-e0a7e274632c" absoluteBounds="0.76500000000000012, 1.96, 1.9700000000000002, 13.710489908854166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="999a3c7d-47c3-4929-95e4-db8794350bb5" absoluteBounds="9.5, 8.5, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/StoreDataContext/SubQuestionT2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3051635-6d72-441a-812d-20b26e781358" absoluteBounds="9.515, 8.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.75 : 9.19314697265625); (9.5 : 9.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StoreDataContext/QuestionT2/QuestionT2_SubQuestionT2" />
+      <nodes>
+        <classShapeMoniker Id="197f30b8-737b-4ebc-9b44-fd322d8f9031" />
+        <classShapeMoniker Id="999a3c7d-47c3-4929-95e4-db8794350bb5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="cab5986a-51d4-4946-87a5-bd21f5ecb59e" absoluteBounds="3.5, 8, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/StoreDataContext/SubQuestionT3" />
+      <nestedChildShapes>
+        <elementListCompartment Id="377d7079-7edd-4b32-98e6-a7b52265a887" absoluteBounds="3.515, 8.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 8.69314697265625); (3.5 : 8.69314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StoreDataContext/QuestionT3/QuestionT3_SubQuestionT3" />
+      <nodes>
+        <classShapeMoniker Id="7d54a83b-ebe8-4741-a2de-6084ceb9ed24" />
+        <classShapeMoniker Id="cab5986a-51d4-4946-87a5-bd21f5ecb59e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

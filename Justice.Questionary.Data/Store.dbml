@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="JusticeDB2" Class="StoreDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=db.dav-systems.com,58144;Initial Catalog=JusticeDB2;Persist Security Info=True;User ID=sa" SettingsObjectName="Justice.Questionary.Data.Properties.Settings" SettingsPropertyName="JusticeDB2ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.vGender" Member="vGenders">
+    <Type Name="vGender">
+      <Column Name="Gender_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Gender_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vDate_Interval" Member="vDate_Intervals">
+    <Type Name="vDate_Interval">
+      <Column Name="Date_Interval_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Date_Interval_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogX3" Member="vCatalogX3s">
+    <Type Name="vCatalogX3">
+      <Column Name="CatalogX3_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX3_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCourt" Member="vCourts">
+    <Type Name="vCourt">
+      <Column Name="Court_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Court_Name" Type="System.String" DbType="NVarChar(350)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogX43" Member="vCatalogX43s">
+    <Type Name="vCatalogX43">
+      <Column Name="CatalogX43_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX43_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogX44" Member="vCatalogX44s">
+    <Type Name="vCatalogX44">
+      <Column Name="CatalogX44_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX44_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogX45" Member="vCatalogX45s">
+    <Type Name="vCatalogX45">
+      <Column Name="CatalogX45_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX45_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogX46" Member="vCatalogX46s">
+    <Type Name="vCatalogX46">
+      <Column Name="CatalogX46_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX46_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogX47" Member="vCatalogX47s">
+    <Type Name="vCatalogX47">
+      <Column Name="CatalogX47_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX47_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT10" Member="vCatalogT10s">
+    <Type Name="vCatalogT10">
+      <Column Name="CatalogT10_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT10_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT3" Member="vCatalogT3s">
+    <Type Name="vCatalogT3">
+      <Column Name="CatalogT3_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT3_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT4" Member="vCatalogT4s">
+    <Type Name="vCatalogT4">
+      <Column Name="CatalogT4_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT4_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT6" Member="vCatalogT6s">
+    <Type Name="vCatalogT6">
+      <Column Name="CatalogT6_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT6_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT5" Member="vCatalogT5s">
+    <Type Name="vCatalogT5">
+      <Column Name="CatalogT5_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT5_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT7" Member="vCatalogT7s">
+    <Type Name="vCatalogT7">
+      <Column Name="CatalogT7_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT7_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT8" Member="vCatalogT8s">
+    <Type Name="vCatalogT8">
+      <Column Name="CatalogT8_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT8_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vRecord_Status" Member="vRecord_Status">
+    <Type Name="vRecord_Status">
+      <Column Name="Record_Status_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Record_Status_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogD1" Member="vCatalogD1s">
+    <Type Name="vCatalogD1">
+      <Column Name="CatalogD1_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogD1_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogD1_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT3" Member="vCatalogT31s">
+    <Type Name="vCatalogT31">
+      <Column Name="CatalogT3_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT3_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vReviewer" Member="vReviewers">
+    <Type Name="vReviewer">
+      <Column Name="Reviewer_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Reviewer_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Reviewer_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vLawyer_Service" Member="vLawyer_Services">
+    <Type Name="vLawyer_Service">
+      <Column Name="Lawyer_Service_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Lawyer_Service_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Lawyer_Service_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vPublic_Lawyer_Service" Member="vPublic_Lawyer_Services">
+    <Type Name="vPublic_Lawyer_Service">
+      <Column Name="Public_Lawyer_Service_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Public_Lawyer_Service_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vPublic_Lawyer_Service_Payment" Member="vPublic_Lawyer_Service_Payments">
+    <Type Name="vPublic_Lawyer_Service_Payment">
+      <Column Name="Public_Lawyer_Service_Payment_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Public_Lawyer_Service_Payment_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCommunication_Type" Member="vCommunication_Types">
+    <Type Name="vCommunication_Type">
+      <Column Name="Communication_Type_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Communication_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vScan_Provision_Cost" Member="vScan_Provision_Costs">
+    <Type Name="vScan_Provision_Cost">
+      <Column Name="Scan_Provision_Cost_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Scan_Provision_Cost_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vScan_Provision_Type" Member="vScan_Provision_Types">
+    <Type Name="vScan_Provision_Type">
+      <Column Name="Scan_Provision_Type_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Scan_Provision_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vResource_Estimation_Type" Member="vResource_Estimation_Types">
+    <Type Name="vResource_Estimation_Type">
+      <Column Name="Resource_Estimation_Type_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Resource_Estimation_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT10_Detail" Member="vCatalogT10_Details">
+    <Type Name="vCatalogT10_Detail">
+      <Column Name="CatalogT10_Detail_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT10_Detail_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT9" Member="vCatalogT9s">
+    <Type Name="vCatalogT9">
+      <Column Name="CatalogT9_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT9_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCatalogT30" Member="vCatalogT30s">
+    <Type Name="vCatalogT30">
+      <Column Name="CatalogT30_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT30_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vQuestionT3" Member="vQuestionT3s">
+    <Type Name="vQuestionT3">
+      <Column Name="QuestionT3_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Question_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Court_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Court_Name" Type="System.String" DbType="NVarChar(350)" CanBeNull="true" />
+      <Column Name="Gender_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date_Interval_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date_Interval_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT3_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT3_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="T3_Description" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="CatalogT4_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT4_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT5_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT5_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT6_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT6_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT7_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT7_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT8_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT8_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT9_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT9_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lawyer_Service_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question13" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question14" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question15" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question16" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17_Detail" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Question18" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question19" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question20" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question21" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question22" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question23" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question24" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question25" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question26" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question27" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question28" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29_2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30_2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question32" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question33" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question34" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question35" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question36" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question37" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question38" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question39" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question40" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question41" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question42" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question43" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question44" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question45" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question46" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question47" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Scan_Provision_Cost_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Cost_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Resource_Estimation_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Resource_Estimation_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question52" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Question53" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Record_Status_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Record_Status_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Reviewer_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reviewer_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Start_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Termination_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="CatalogD1_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogD1_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="QuestionD1_Detail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vQuestionT2" Member="vQuestionT2s">
+    <Type Name="vQuestionT2">
+      <Column Name="QuestionT2_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Question_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Court_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Court_Name" Type="System.String" DbType="NVarChar(350)" CanBeNull="true" />
+      <Column Name="Gender_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date_Interval_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date_Interval_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT3_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT3_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="T3_Description" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="T3_Detail" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="CatalogT4_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT4_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT5_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT5_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT6_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT6_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT7_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT7_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT8_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT8_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT9_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT9_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT10_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT10_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT10_Detail_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT10_Detail_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lawyer_Service_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question14" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question15" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question16" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18_Detail" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Question19" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question20" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question21" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question22" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question23" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question24" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question25" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question26" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question27" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question28" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30_2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30_3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31_2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31_3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question32" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question33" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question34" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question35" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question36" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question37" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question38" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question39" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question40" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question41" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question42" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question43" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question44" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question45" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question46" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question47" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question48" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Cost_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Cost_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Scan_Provision_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Resource_Estimation_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Resource_Estimation_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question53" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Question54" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Record_Status_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Record_Status_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Reviewer_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reviewer_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Start_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Termination_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="CatalogD1_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogD1_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="QuestionD1_Detail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vQuestionT1" Member="vQuestionT1s">
+    <Type Name="vQuestionT1">
+      <Column Name="QuestionT1_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Question_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Court_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Court_Name" Type="System.String" DbType="NVarChar(350)" CanBeNull="true" />
+      <Column Name="Gender_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date_Interval_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date_Interval_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT3_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT3_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="T3_Description" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="CatalogT4_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT4_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT5_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT5_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT6_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT6_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT7_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT7_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT8_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT8_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT9_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT9_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT10_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT10_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT10_Detail_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT10_Detail_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lawyer_Service_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question14" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question15" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question16" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18_Detail" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Question19" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question20" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question21" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question22" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question23" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question24" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question25" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question26" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question27" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question28" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT30_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT30_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question31" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question32" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question33" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question34" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question35" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question36" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question37" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question38" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question39" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question40" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question41" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question42" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question43" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question44" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question45" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question46" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question47" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question48" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question49" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Scan_Provision_Cost_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Cost_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Resource_Estimation_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Resource_Estimation_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question54" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Question55" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Record_Status_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Record_Status_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Reviewer_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reviewer_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Start_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Termination_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="CatalogD1_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogD1_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="QuestionD1_Detail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionT1" Member="QuestionT1s">
+    <Type Name="QuestionT1">
+      <Column Name="QuestionT1_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Question_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Court_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date_Interval_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT3_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="T3_Description" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="CatalogT4_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT5_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT6_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT7_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT8_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT9_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT10_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT10_Detail_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question14" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question15" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question16" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18_Detail" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Question19" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question20" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question21" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question22" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question23" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question24" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question25" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question26" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question27" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question28" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT30_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question32" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question33" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question34" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question35" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question36" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question37" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question38" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question39" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question40" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question41" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question42" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question43" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question44" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question45" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question46" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question47" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question48" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question49" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Cost_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Resource_Estimation_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question54" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Question55" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Record_Status_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reviewer_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Start_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Termination_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="CatalogD1_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuestionD1_Detail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Association Name="QuestionT1_QuestionT1_Communication_Type" Member="QuestionT1_Communication_Types" ThisKey="QuestionT1_ID" OtherKey="QuestionT1_ID" Type="QuestionT1_Communication_Type" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionT2" Member="QuestionT2s">
+    <Type Name="QuestionT2">
+      <Column Name="QuestionT2_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Question_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Court_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date_Interval_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT3_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="T3_Description" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="T3_Detail" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="CatalogT4_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT5_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT6_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT7_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT8_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT9_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT10_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT10_Detail_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question14" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question15" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question16" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18_Detail" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Question19" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question20" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question21" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question22" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question23" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question24" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question25" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question26" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question27" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question28" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30_2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30_3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31_2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31_3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question32" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question33" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question34" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question35" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question36" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question37" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question38" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question39" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question40" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question41" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question42" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question43" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question44" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question45" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question46" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question47" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question48" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Cost_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Resource_Estimation_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question53" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Question54" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Record_Status_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reviewer_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Start_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Termination_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="CatalogD1_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuestionD1_Detail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Association Name="QuestionT2_QuestionT2_Communication_Type" Member="QuestionT2_Communication_Types" ThisKey="QuestionT2_ID" OtherKey="QuestionT2_ID" Type="QuestionT2_Communication_Type" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionT3" Member="QuestionT3s">
+    <Type Name="QuestionT3">
+      <Column Name="QuestionT3_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Question_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Court_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date_Interval_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT3_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="T3_Description" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="CatalogT4_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT5_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT6_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT7_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT8_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogT9_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lawyer_Service_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question13" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question14" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question15" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question16" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17_Detail" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Question18" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question19" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question20" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question21" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question22" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question23" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question24" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question25" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question26" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question27" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question28" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29_2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30_2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question32" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question33" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question34" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question35" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question36" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question37" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question38" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question39" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question40" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question41" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question42" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question43" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question44" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question45" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question46" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question47" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Scan_Provision_Cost_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Resource_Estimation_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question52" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Question53" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Record_Status_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reviewer_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Start_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Termination_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="CatalogD1_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuestionD1_Detail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Association Name="QuestionT3_QuestionT3_Communication_Type" Member="QuestionT3_Communication_Types" ThisKey="QuestionT3_ID" OtherKey="QuestionT3_ID" Type="QuestionT3_Communication_Type" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionT1_Communication_Type" Member="QuestionT1_Communication_Types">
+    <Type Name="QuestionT1_Communication_Type">
+      <Column Name="QuestionT1_Communication_Type_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QuestionT1_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Communication_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="QuestionT1_QuestionT1_Communication_Type" Member="QuestionT1" ThisKey="QuestionT1_ID" OtherKey="QuestionT1_ID" Type="QuestionT1" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionT2_Communication_Type" Member="QuestionT2_Communication_Types">
+    <Type Name="QuestionT2_Communication_Type">
+      <Column Name="QuestionT2_Communication_Type_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QuestionT2_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Communication_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="QuestionT2_QuestionT2_Communication_Type" Member="QuestionT2" ThisKey="QuestionT2_ID" OtherKey="QuestionT2_ID" Type="QuestionT2" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionT3_Communication_Type" Member="QuestionT3_Communication_Types">
+    <Type Name="QuestionT3_Communication_Type">
+      <Column Name="QuestionT3_Communication_Type_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QuestionT3_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Communication_Type_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="QuestionT3_QuestionT3_Communication_Type" Member="QuestionT3" ThisKey="QuestionT3_ID" OtherKey="QuestionT3_ID" Type="QuestionT3" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuestionX" Member="QuestionXes">
+    <Type Name="QuestionX">
+      <Column Name="QuestionX_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Question_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Court_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date_Interval_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX3_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="X3_Description" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Question4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Question5C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question5D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question6C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question6D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question7C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question7D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question8C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question8D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question9C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question9D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question10C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question10D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question11C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question11D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question12C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question12D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question13C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question13D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question14C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question14D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question15C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question15D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question16C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question16D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question19C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question19D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question20C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question20D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question21C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question21D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question22C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question22D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question23C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question23D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question24C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question24D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question25C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question25D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question26C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question26D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question27C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question27D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question28C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question28D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question32C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question32D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question33C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question33D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question34C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question34D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question35C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question35D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question36C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question36D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question37C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question37D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question38C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question38D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question39C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question39D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question40C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question40D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question41C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question41D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question42C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question42D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX43_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX44_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX45_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX46_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX47_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question48" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Record_Status_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reviewer_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Start_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Termination_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="CatalogD1_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuestionD1_Detail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vQuestionX" Member="vQuestionXes">
+    <Type Name="vQuestionX">
+      <Column Name="QuestionX_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Question_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Court_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Court_Name" Type="System.String" DbType="NVarChar(350)" CanBeNull="true" />
+      <Column Name="Gender_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date_Interval_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date_Interval_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX3_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX3_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="X3_Description" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Question4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Question5C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question5D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question6C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question6D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question7C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question7D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question8C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question8D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question9C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question9D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question10C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question10D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question11C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question11D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question12C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question12D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question13C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question13D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question14C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question14D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question15C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question15D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question16C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question16D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question17D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question18D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question19C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question19D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question20C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question20D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question21C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question21D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question22C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question22D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question23C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question23D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question24C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question24D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question25C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question25D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question26C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question26D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question27C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question27D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question28C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question28D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question29D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question30D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question31D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question32C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question32D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question33C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question33D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question34C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question34D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question35C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question35D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question36C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question36D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question37C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question37D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question38C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question38D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question39C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question39D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question40C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question40D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question41C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question41D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question42C" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Question42D" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX43_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX43_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX44_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX44_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX45_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX45_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX46_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX46_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX47_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogX47_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question48" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Record_Status_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Record_Status_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Reviewer_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reviewer_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Question_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Start_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Termination_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="CatalogD1_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CatalogD1_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="QuestionD1_Detail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QuestionD4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

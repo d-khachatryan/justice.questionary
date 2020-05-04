@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="JusticeDB2" Class="CatalogStoreDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=db.dav-systems.com,58144;Initial Catalog=JusticeDB2;Persist Security Info=True;User ID=sa" SettingsObjectName="Justice.Questionary.Catalogs.Properties.Settings" SettingsPropertyName="JusticeDB2ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CatalogD1" Member="CatalogD1s">
+    <Type Name="CatalogD1">
+      <Column Name="CatalogD1_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogD1_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogD1_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogT10" Member="CatalogT10s">
+    <Type Name="CatalogT10">
+      <Column Name="CatalogT10_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT10_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT10_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogT10_Detail" Member="CatalogT10_Details">
+    <Type Name="CatalogT10_Detail">
+      <Column Name="CatalogT10_Detail_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT10_Detail_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT10_Detail_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogT3" Member="CatalogT3s">
+    <Type Name="CatalogT3">
+      <Column Name="CatalogT3_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT3_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT3_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogT30" Member="CatalogT30s">
+    <Type Name="CatalogT30">
+      <Column Name="CatalogT30_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT30_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT30_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogT4" Member="CatalogT4s">
+    <Type Name="CatalogT4">
+      <Column Name="CatalogT4_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT4_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT4_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogT5" Member="CatalogT5s">
+    <Type Name="CatalogT5">
+      <Column Name="CatalogT5_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT5_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT5_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogT6" Member="CatalogT6s">
+    <Type Name="CatalogT6">
+      <Column Name="CatalogT6_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT6_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT6_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogT7" Member="CatalogT7s">
+    <Type Name="CatalogT7">
+      <Column Name="CatalogT7_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT7_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT7_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogT8" Member="CatalogT8s">
+    <Type Name="CatalogT8">
+      <Column Name="CatalogT8_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT8_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT8_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogT9" Member="CatalogT9s">
+    <Type Name="CatalogT9">
+      <Column Name="CatalogT9_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogT9_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogT9_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogX3" Member="CatalogX3s">
+    <Type Name="CatalogX3">
+      <Column Name="CatalogX3_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX3_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX3_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogX43" Member="CatalogX43s">
+    <Type Name="CatalogX43">
+      <Column Name="CatalogX43_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX43_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX43_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogX44" Member="CatalogX44s">
+    <Type Name="CatalogX44">
+      <Column Name="CatalogX44_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX44_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX44_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogX45" Member="CatalogX45s">
+    <Type Name="CatalogX45">
+      <Column Name="CatalogX45_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX45_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX45_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogX46" Member="CatalogX46s">
+    <Type Name="CatalogX46">
+      <Column Name="CatalogX46_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX46_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX46_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogX47" Member="CatalogX47s">
+    <Type Name="CatalogX47">
+      <Column Name="CatalogX47_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatalogX47_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CatalogX47_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Communication_Type" Member="Communication_Types">
+    <Type Name="Communication_Type">
+      <Column Name="Communication_Type_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Communication_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Communication_Type_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Court" Member="Courts">
+    <Type Name="Court">
+      <Column Name="Court_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Court_Name" Type="System.String" DbType="NVarChar(350)" CanBeNull="true" />
+      <Column Name="Court_EN_Name" Type="System.String" DbType="NVarChar(350)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Date_Interval" Member="Date_Intervals">
+    <Type Name="Date_Interval">
+      <Column Name="Date_Interval_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Date_Interval_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date_Interval_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Gender" Member="Genders">
+    <Type Name="Gender">
+      <Column Name="Gender_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Gender_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gender_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Lawyer_Service" Member="Lawyer_Services">
+    <Type Name="Lawyer_Service">
+      <Column Name="Lawyer_Service_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Lawyer_Service_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Lawyer_Service_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Public_Lawyer_Service" Member="Public_Lawyer_Services">
+    <Type Name="Public_Lawyer_Service">
+      <Column Name="Public_Lawyer_Service_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Public_Lawyer_Service_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Public_Lawyer_Service_Payment" Member="Public_Lawyer_Service_Payments">
+    <Type Name="Public_Lawyer_Service_Payment">
+      <Column Name="Public_Lawyer_Service_Payment_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Public_Lawyer_Service_Payment_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Public_Lawyer_Service_Payment_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Record_Status" Member="Record_Status">
+    <Type Name="Record_Status">
+      <Column Name="Record_Status_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Record_Status_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Record_Status_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Resource_Estimation_Type" Member="Resource_Estimation_Types">
+    <Type Name="Resource_Estimation_Type">
+      <Column Name="Resource_Estimation_Type_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Resource_Estimation_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Resource_Estimation_Type_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Reviewer" Member="Reviewers">
+    <Type Name="Reviewer">
+      <Column Name="Reviewer_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Reviewer_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Reviewer_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Scan_Provision_Cost" Member="Scan_Provision_Costs">
+    <Type Name="Scan_Provision_Cost">
+      <Column Name="Scan_Provision_Cost_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Scan_Provision_Cost_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Scan_Provision_Cost_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Scan_Provision_Type" Member="Scan_Provision_Types">
+    <Type Name="Scan_Provision_Type">
+      <Column Name="Scan_Provision_Type_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Scan_Provision_Type_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Scan_Provision_Type_EN_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,1161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="StoreDataSet" targetNamespace="http://tempuri.org/StoreDataSet.xsd" xmlns:mstns="http://tempuri.org/StoreDataSet.xsd" xmlns="http://tempuri.org/StoreDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="JusticeDB2ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="JusticeDB2ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Justice.Questionary.Data.Properties.Settings.GlobalReference.Default.JusticeDB2ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vQuestionT1TableAdapter" GeneratorDataComponentClassName="vQuestionT1TableAdapter" Name="vQuestionT1" UserDataComponentName="vQuestionT1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="JusticeDB2ConnectionString (Settings)" DbObjectName="JusticeDB2.dbo.vQuestionT1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT QuestionT1_ID, Question_Number, Court_Name, Gender_Name, Date_Interval_Name, CatalogT3_Name, CatalogT4_Name, CatalogT5_Name, CatalogT6_Name, CatalogT7_Name, CatalogT8_Name, CatalogT9_Name, CatalogT10_Name, Public_Lawyer_Service_Name, Public_Lawyer_Service_Payment_Name, Lawyer_Service_Name, Question14, Question15, Question16, Question17, Question18, Question19, Question20, Question21, Question22, Question23, Question24, Question25, Question26, Question27, Question28, Question29, CatalogT30_Name, Question31, Question32, Question33, Question34, Question35, Question36, Question37, Question38, Question39, Question40, Question41, Question42, Question43, Question44, Question45, Question46, Question47, Question48, Question49, Scan_Provision_Type_Name, Scan_Provision_Cost_Name, Resource_Estimation_Type_Name, Question54, Question55, Record_Status_Name, Reviewer_Name, Question_Date, User_Name, 1 AS Քանակ FROM vQuestionT1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="QuestionT1_ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Question_Number" DataSetColumn="Հարցաթերթ" />
+              <Mapping SourceColumn="Court_Name" DataSetColumn="Դատարան" />
+              <Mapping SourceColumn="Gender_Name" DataSetColumn="Սեռ" />
+              <Mapping SourceColumn="Date_Interval_Name" DataSetColumn="Տարիքային խումբ" />
+              <Mapping SourceColumn="CatalogT3_Name" DataSetColumn="Հարց 3" />
+              <Mapping SourceColumn="CatalogT4_Name" DataSetColumn="Հարց 4" />
+              <Mapping SourceColumn="CatalogT5_Name" DataSetColumn="Հարց 5" />
+              <Mapping SourceColumn="CatalogT6_Name" DataSetColumn="Հարց 6" />
+              <Mapping SourceColumn="CatalogT7_Name" DataSetColumn="Հարց 7" />
+              <Mapping SourceColumn="CatalogT8_Name" DataSetColumn="Հարց 8" />
+              <Mapping SourceColumn="CatalogT9_Name" DataSetColumn="Հարց 9" />
+              <Mapping SourceColumn="CatalogT10_Name" DataSetColumn="Հարց 10" />
+              <Mapping SourceColumn="Public_Lawyer_Service_Name" DataSetColumn="Հարց 11" />
+              <Mapping SourceColumn="Public_Lawyer_Service_Payment_Name" DataSetColumn="Հարց 12" />
+              <Mapping SourceColumn="Lawyer_Service_Name" DataSetColumn="Հարց 13" />
+              <Mapping SourceColumn="Question14" DataSetColumn="Հարց 14" />
+              <Mapping SourceColumn="Question15" DataSetColumn="Հարց 15" />
+              <Mapping SourceColumn="Question16" DataSetColumn="Հարց 16" />
+              <Mapping SourceColumn="Question17" DataSetColumn="Հարց 17" />
+              <Mapping SourceColumn="Question18" DataSetColumn="Հարց 18" />
+              <Mapping SourceColumn="Question19" DataSetColumn="Հարց 19" />
+              <Mapping SourceColumn="Question20" DataSetColumn="Հարց 20" />
+              <Mapping SourceColumn="Question21" DataSetColumn="Հարց 21" />
+              <Mapping SourceColumn="Question22" DataSetColumn="Հարց 22" />
+              <Mapping SourceColumn="Question23" DataSetColumn="Հարց 23" />
+              <Mapping SourceColumn="Question24" DataSetColumn="Հարց 24" />
+              <Mapping SourceColumn="Question25" DataSetColumn="Հարց 25" />
+              <Mapping SourceColumn="Question26" DataSetColumn="Հարց 26" />
+              <Mapping SourceColumn="Question27" DataSetColumn="Հարց 27" />
+              <Mapping SourceColumn="Question28" DataSetColumn="Հարց 28" />
+              <Mapping SourceColumn="Question29" DataSetColumn="Հարց 29" />
+              <Mapping SourceColumn="CatalogT30_Name" DataSetColumn="Հարց 30" />
+              <Mapping SourceColumn="Question31" DataSetColumn="Հարց 31" />
+              <Mapping SourceColumn="Question32" DataSetColumn="Հարց 32" />
+              <Mapping SourceColumn="Question33" DataSetColumn="Հարց 33" />
+              <Mapping SourceColumn="Question34" DataSetColumn="Հարց 34" />
+              <Mapping SourceColumn="Question35" DataSetColumn="Հարց 35" />
+              <Mapping SourceColumn="Question36" DataSetColumn="Հարց 36" />
+              <Mapping SourceColumn="Question37" DataSetColumn="Հարց 37" />
+              <Mapping SourceColumn="Question38" DataSetColumn="Հարց 38" />
+              <Mapping SourceColumn="Question39" DataSetColumn="Հարց 39" />
+              <Mapping SourceColumn="Question40" DataSetColumn="Հարց 40" />
+              <Mapping SourceColumn="Question41" DataSetColumn="Հարց 41" />
+              <Mapping SourceColumn="Question42" DataSetColumn="Հարց 42" />
+              <Mapping SourceColumn="Question43" DataSetColumn="Հարց 43" />
+              <Mapping SourceColumn="Question44" DataSetColumn="Հարց 44" />
+              <Mapping SourceColumn="Question45" DataSetColumn="Հարց 45" />
+              <Mapping SourceColumn="Question46" DataSetColumn="Հարց 46" />
+              <Mapping SourceColumn="Question47" DataSetColumn="Հարց 47" />
+              <Mapping SourceColumn="Question48" DataSetColumn="Հարց 48" />
+              <Mapping SourceColumn="Question49" DataSetColumn="Հարց 49" />
+              <Mapping SourceColumn="Scan_Provision_Type_Name" DataSetColumn="Հարց 51" />
+              <Mapping SourceColumn="Scan_Provision_Cost_Name" DataSetColumn="Հարց 52" />
+              <Mapping SourceColumn="Resource_Estimation_Type_Name" DataSetColumn="Հարց 53" />
+              <Mapping SourceColumn="Question54" DataSetColumn="Հարց 54" />
+              <Mapping SourceColumn="Question55" DataSetColumn="Հարց 55" />
+              <Mapping SourceColumn="Record_Status_Name" DataSetColumn="Տողի կարգավիճակ" />
+              <Mapping SourceColumn="Reviewer_Name" DataSetColumn="Հարցազրուցավար" />
+              <Mapping SourceColumn="Question_Date" DataSetColumn="Ամսաթիվ" />
+              <Mapping SourceColumn="User_Name" DataSetColumn="Մուտքագրող" />
+              <Mapping SourceColumn="Քանակ" DataSetColumn="Քանակ" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vQuestionT2TableAdapter" GeneratorDataComponentClassName="vQuestionT2TableAdapter" Name="vQuestionT2" UserDataComponentName="vQuestionT2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="JusticeDB2ConnectionString (Settings)" DbObjectName="JusticeDB2.dbo.vQuestionT2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT QuestionT2_ID, Question_Number, Court_Name, Gender_Name, Date_Interval_Name, CatalogT3_Name, CatalogT4_Name, CatalogT5_Name, CatalogT6_Name, CatalogT7_Name, CatalogT8_Name, CatalogT9_Name, CatalogT10_Name, Public_Lawyer_Service_Name, Public_Lawyer_Service_Payment_Name, Lawyer_Service_Name, Question14, Question15, Question16, Question17, Question18, Question19, Question20, Question21, Question22, Question23, Question24, Question25, Question26, Question27, Question28, Question29, Question30, Question30_2, Question30_3, Question31, Question31_2, Question31_3, Question32, Question33, Question34, Question35, Question36, Question37, Question38, Question39, Question40, Question41, Question42, Question43, Question44, Question45, Question46, Question47, Question48, Scan_Provision_Cost_Name, Scan_Provision_Type_Name, Resource_Estimation_Type_Name, Question53, Question54, Record_Status_Name, Reviewer_Name, Question_Date, User_Name, 1 AS Քանակ FROM vQuestionT2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="QuestionT2_ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Question_Number" DataSetColumn="Հարցաթերթ" />
+              <Mapping SourceColumn="Court_Name" DataSetColumn="Դատարան" />
+              <Mapping SourceColumn="Gender_Name" DataSetColumn="Սեռ" />
+              <Mapping SourceColumn="Date_Interval_Name" DataSetColumn="Տարիքային խումբ" />
+              <Mapping SourceColumn="CatalogT3_Name" DataSetColumn="Հարց 3" />
+              <Mapping SourceColumn="CatalogT4_Name" DataSetColumn="Հարց 4" />
+              <Mapping SourceColumn="CatalogT5_Name" DataSetColumn="Հարց 5" />
+              <Mapping SourceColumn="CatalogT6_Name" DataSetColumn="Հարց 6" />
+              <Mapping SourceColumn="CatalogT7_Name" DataSetColumn="Հարց 7" />
+              <Mapping SourceColumn="CatalogT8_Name" DataSetColumn="Հարց 8" />
+              <Mapping SourceColumn="CatalogT9_Name" DataSetColumn="Հարց 9" />
+              <Mapping SourceColumn="CatalogT10_Name" DataSetColumn="Հարց 10" />
+              <Mapping SourceColumn="Public_Lawyer_Service_Name" DataSetColumn="Հարց 11" />
+              <Mapping SourceColumn="Public_Lawyer_Service_Payment_Name" DataSetColumn="Հարց 12" />
+              <Mapping SourceColumn="Lawyer_Service_Name" DataSetColumn="Հարց 13" />
+              <Mapping SourceColumn="Question14" DataSetColumn="Հարց 14" />
+              <Mapping SourceColumn="Question15" DataSetColumn="Հարց 15" />
+              <Mapping SourceColumn="Question16" DataSetColumn="Հարց 16" />
+              <Mapping SourceColumn="Question17" DataSetColumn="Հարց 17" />
+              <Mapping SourceColumn="Question18" DataSetColumn="Հարց 18" />
+              <Mapping SourceColumn="Question19" DataSetColumn="Հարց 19" />
+              <Mapping SourceColumn="Question20" DataSetColumn="Հարց 20" />
+              <Mapping SourceColumn="Question21" DataSetColumn="Հարց 21" />
+              <Mapping SourceColumn="Question22" DataSetColumn="Հարց 22" />
+              <Mapping SourceColumn="Question23" DataSetColumn="Հարց 23" />
+              <Mapping SourceColumn="Question24" DataSetColumn="Հարց 24" />
+              <Mapping SourceColumn="Question25" DataSetColumn="Հարց 25" />
+              <Mapping SourceColumn="Question26" DataSetColumn="Հարց 26" />
+              <Mapping SourceColumn="Question27" DataSetColumn="Հարց 27" />
+              <Mapping SourceColumn="Question28" DataSetColumn="Հարց 28" />
+              <Mapping SourceColumn="Question29" DataSetColumn="Հարց 29" />
+              <Mapping SourceColumn="Question30" DataSetColumn="Հարց 30" />
+              <Mapping SourceColumn="Question30_2" DataSetColumn="Հարց 30-2" />
+              <Mapping SourceColumn="Question30_3" DataSetColumn="Հարց 30-3" />
+              <Mapping SourceColumn="Question31" DataSetColumn="Հարց 31" />
+              <Mapping SourceColumn="Question31_2" DataSetColumn="Հարց 31-2" />
+              <Mapping SourceColumn="Question31_3" DataSetColumn="Հարց 31-3" />
+              <Mapping SourceColumn="Question32" DataSetColumn="Հարց 32" />
+              <Mapping SourceColumn="Question33" DataSetColumn="Հարց 33" />
+              <Mapping SourceColumn="Question34" DataSetColumn="Հարց 34" />
+              <Mapping SourceColumn="Question35" DataSetColumn="Հարց 35" />
+              <Mapping SourceColumn="Question36" DataSetColumn="Հարց 36" />
+              <Mapping SourceColumn="Question37" DataSetColumn="Հարց 37" />
+              <Mapping SourceColumn="Question38" DataSetColumn="Հարց 38" />
+              <Mapping SourceColumn="Question39" DataSetColumn="Հարց 39" />
+              <Mapping SourceColumn="Question40" DataSetColumn="Հարց 40" />
+              <Mapping SourceColumn="Question41" DataSetColumn="Հարց 41" />
+              <Mapping SourceColumn="Question42" DataSetColumn="Հարց 42" />
+              <Mapping SourceColumn="Question43" DataSetColumn="Հարց 43" />
+              <Mapping SourceColumn="Question44" DataSetColumn="Հարց 44" />
+              <Mapping SourceColumn="Question45" DataSetColumn="Հարց 45" />
+              <Mapping SourceColumn="Question46" DataSetColumn="Հարց 46" />
+              <Mapping SourceColumn="Question47" DataSetColumn="Հարց 47" />
+              <Mapping SourceColumn="Question48" DataSetColumn="Հարց 48" />
+              <Mapping SourceColumn="Scan_Provision_Cost_Name" DataSetColumn="Հարց 50" />
+              <Mapping SourceColumn="Scan_Provision_Type_Name" DataSetColumn="Հարց 51" />
+              <Mapping SourceColumn="Resource_Estimation_Type_Name" DataSetColumn="Հարց 52" />
+              <Mapping SourceColumn="Question53" DataSetColumn="Հարց 53" />
+              <Mapping SourceColumn="Question54" DataSetColumn="Հարց 54" />
+              <Mapping SourceColumn="Record_Status_Name" DataSetColumn="Տողի կարգավիճակ" />
+              <Mapping SourceColumn="Reviewer_Name" DataSetColumn="Հարցազրուցավար" />
+              <Mapping SourceColumn="Question_Date" DataSetColumn="Ամսաթիվ" />
+              <Mapping SourceColumn="User_Name" DataSetColumn="Մուտքագրող" />
+              <Mapping SourceColumn="Քանակ" DataSetColumn="Քանակ" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vQuestionT3TableAdapter" GeneratorDataComponentClassName="vQuestionT3TableAdapter" Name="vQuestionT3" UserDataComponentName="vQuestionT3TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="JusticeDB2ConnectionString (Settings)" DbObjectName="JusticeDB2.dbo.vQuestionT3" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT QuestionT3_ID, Question_Number, Court_Name, Gender_Name, Date_Interval_Name, CatalogT3_Name, CatalogT4_Name, CatalogT5_Name, CatalogT6_Name, CatalogT7_Name, CatalogT8_Name, CatalogT9_Name, Public_Lawyer_Service_Name, Public_Lawyer_Service_Payment_Name, Lawyer_Service_Name, Question13, Question14, Question15, Question16, Question17, Question18, Question19, Question20, Question21, Question22, Question23, Question24, Question25, Question26, Question27, Question28, Question29, Question29_2, Question30, Question30_2, Question31, Question32, Question33, Question34, Question35, Question36, Question37, Question38, Question39, Question40, Question41, Question42, Question43, Question44, Question45, Question46, Question47, Scan_Provision_Type_Name, Scan_Provision_Cost_Name, Resource_Estimation_Type_Name, Question52, Question53, Record_Status_Name, Reviewer_Name, Question_Date, User_Name, 1 AS Քանակ FROM vQuestionT3</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="QuestionT3_ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Question_Number" DataSetColumn="Հարցաթերթ" />
+              <Mapping SourceColumn="Court_Name" DataSetColumn="Դատարան" />
+              <Mapping SourceColumn="Gender_Name" DataSetColumn="Սեռ" />
+              <Mapping SourceColumn="Date_Interval_Name" DataSetColumn="Տարիքային խումբ" />
+              <Mapping SourceColumn="CatalogT3_Name" DataSetColumn="Հարց 3" />
+              <Mapping SourceColumn="CatalogT4_Name" DataSetColumn="Հարց 4" />
+              <Mapping SourceColumn="CatalogT5_Name" DataSetColumn="Հարց 5" />
+              <Mapping SourceColumn="CatalogT6_Name" DataSetColumn="Հարց 6" />
+              <Mapping SourceColumn="CatalogT7_Name" DataSetColumn="Հարց 7" />
+              <Mapping SourceColumn="CatalogT8_Name" DataSetColumn="Հարց 8" />
+              <Mapping SourceColumn="CatalogT9_Name" DataSetColumn="Հարց 9" />
+              <Mapping SourceColumn="Public_Lawyer_Service_Name" DataSetColumn="Հարց 10" />
+              <Mapping SourceColumn="Public_Lawyer_Service_Payment_Name" DataSetColumn="Հարց 11" />
+              <Mapping SourceColumn="Lawyer_Service_Name" DataSetColumn="Հարց 12" />
+              <Mapping SourceColumn="Question13" DataSetColumn="Հարց 13" />
+              <Mapping SourceColumn="Question14" DataSetColumn="Հարց 14" />
+              <Mapping SourceColumn="Question15" DataSetColumn="Հարց 15" />
+              <Mapping SourceColumn="Question16" DataSetColumn="Հարց 16" />
+              <Mapping SourceColumn="Question17" DataSetColumn="Հարց 17" />
+              <Mapping SourceColumn="Question18" DataSetColumn="Հարց 18" />
+              <Mapping SourceColumn="Question19" DataSetColumn="Հարց 19" />
+              <Mapping SourceColumn="Question20" DataSetColumn="Հարց 20" />
+              <Mapping SourceColumn="Question21" DataSetColumn="Հարց 21" />
+              <Mapping SourceColumn="Question22" DataSetColumn="Հարց 22" />
+              <Mapping SourceColumn="Question23" DataSetColumn="Հարց 23" />
+              <Mapping SourceColumn="Question24" DataSetColumn="Հարց 24" />
+              <Mapping SourceColumn="Question25" DataSetColumn="Հարց 25" />
+              <Mapping SourceColumn="Question26" DataSetColumn="Հարց 26" />
+              <Mapping SourceColumn="Question27" DataSetColumn="Հարց 27" />
+              <Mapping SourceColumn="Question28" DataSetColumn="Հարց 28" />
+              <Mapping SourceColumn="Question29" DataSetColumn="Հարց 29" />
+              <Mapping SourceColumn="Question29_2" DataSetColumn="Հարց 29-2" />
+              <Mapping SourceColumn="Question30" DataSetColumn="Հարց 30" />
+              <Mapping SourceColumn="Question30_2" DataSetColumn="Հարց 30-2" />
+              <Mapping SourceColumn="Question31" DataSetColumn="Հարց 31" />
+              <Mapping SourceColumn="Question32" DataSetColumn="Հարց 32" />
+              <Mapping SourceColumn="Question33" DataSetColumn="Հարց 33" />
+              <Mapping SourceColumn="Question34" DataSetColumn="Հարց 34" />
+              <Mapping SourceColumn="Question35" DataSetColumn="Հարց 35" />
+              <Mapping SourceColumn="Question36" DataSetColumn="Հարց 36" />
+              <Mapping SourceColumn="Question37" DataSetColumn="Հարց 37" />
+              <Mapping SourceColumn="Question38" DataSetColumn="Հարց 38" />
+              <Mapping SourceColumn="Question39" DataSetColumn="Հարց 39" />
+              <Mapping SourceColumn="Question40" DataSetColumn="Հարց 40" />
+              <Mapping SourceColumn="Question41" DataSetColumn="Հարց 41" />
+              <Mapping SourceColumn="Question42" DataSetColumn="Հարց 42" />
+              <Mapping SourceColumn="Question43" DataSetColumn="Հարց 43" />
+              <Mapping SourceColumn="Question44" DataSetColumn="Հարց 44" />
+              <Mapping SourceColumn="Question45" DataSetColumn="Հարց 45" />
+              <Mapping SourceColumn="Question46" DataSetColumn="Հարց 46" />
+              <Mapping SourceColumn="Question47" DataSetColumn="Հարց 47" />
+              <Mapping SourceColumn="Scan_Provision_Type_Name" DataSetColumn="Հարց 49" />
+              <Mapping SourceColumn="Scan_Provision_Cost_Name" DataSetColumn="Հարց 50" />
+              <Mapping SourceColumn="Resource_Estimation_Type_Name" DataSetColumn="Հարց 51" />
+              <Mapping SourceColumn="Question52" DataSetColumn="Հարց 52" />
+              <Mapping SourceColumn="Question53" DataSetColumn="Հարց 53" />
+              <Mapping SourceColumn="Record_Status_Name" DataSetColumn="Տողի կարգավիճակ" />
+              <Mapping SourceColumn="Reviewer_Name" DataSetColumn="Հարցազրուցավար" />
+              <Mapping SourceColumn="Question_Date" DataSetColumn="Ամսաթիվ" />
+              <Mapping SourceColumn="User_Name" DataSetColumn="Մուտքագրող" />
+              <Mapping SourceColumn="Քանակ" DataSetColumn="Քանակ" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vQuestionXTableAdapter" GeneratorDataComponentClassName="vQuestionXTableAdapter" Name="vQuestionX" UserDataComponentName="vQuestionXTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="JusticeDB2ConnectionString (Settings)" DbObjectName="JusticeDB2.dbo.vQuestionX" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT QuestionX_ID, Question_Number, Court_Name, Gender_Name, Date_Interval_Name, CatalogX3_Name, Question4, Question5C, Question5D, Question6C, Question6D, Question7C, Question7D, Question8C, Question8D, Question9C, Question9D, Question10C, Question10D, Question11C, Question11D, Question12C, Question12D, Question13C, Question13D, Question14C, Question14D, Question15C, Question15D, Question16C, Question16D, Question17C, Question17D, Question18C, Question18D, Question19C, Question19D, Question20C, Question20D, Question21C, Question21D, Question22C, Question22D, Question23C, Question23D, Question24C, Question24D, Question25C, Question25D, Question26C, Question26D, Question27C, Question27D, Question28C, Question28D, Question29C, Question29D, Question30C, Question30D, Question31C, Question31D, Question32C, Question32D, Question33C, Question33D, Question34C, Question34D, Question35C, Question35D, Question36C, Question36D, Question37C, Question37D, Question38C, Question38D, Question39C, Question39D, Question40C, Question40D, Question41C, Question41D, Question42C, Question42D, CatalogX43_Name, CatalogX44_Name, CatalogX45_Name, CatalogX46_Name, CatalogX47_Name, Question48, Record_Status_Name, Reviewer_Name, Question_Date, User_Name, 1 AS Քանակ FROM vQuestionX</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="QuestionX_ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Question_Number" DataSetColumn="Հարցաթերթ" />
+              <Mapping SourceColumn="Court_Name" DataSetColumn="Դատարան" />
+              <Mapping SourceColumn="Gender_Name" DataSetColumn="Սեռ" />
+              <Mapping SourceColumn="Date_Interval_Name" DataSetColumn="Տարիքային խումբ" />
+              <Mapping SourceColumn="CatalogX3_Name" DataSetColumn="Հարց 3" />
+              <Mapping SourceColumn="Question4" DataSetColumn="Հարց 4" />
+              <Mapping SourceColumn="Question5C" DataSetColumn="Հարց 5-ա" />
+              <Mapping SourceColumn="Question5D" DataSetColumn="Հարց 5-բ" />
+              <Mapping SourceColumn="Question6C" DataSetColumn="Հարց 6-ա" />
+              <Mapping SourceColumn="Question6D" DataSetColumn="Հարց 6-բ" />
+              <Mapping SourceColumn="Question7C" DataSetColumn="Հարց 7-ա" />
+              <Mapping SourceColumn="Question7D" DataSetColumn="Հարց 7-բ" />
+              <Mapping SourceColumn="Question8C" DataSetColumn="Հարց 8-ա" />
+              <Mapping SourceColumn="Question8D" DataSetColumn="Հարց 8-բ" />
+              <Mapping SourceColumn="Question9C" DataSetColumn="Հարց 9-ա" />
+              <Mapping SourceColumn="Question9D" DataSetColumn="Հարց 9-բ" />
+              <Mapping SourceColumn="Question10C" DataSetColumn="Հարց 10-ա" />
+              <Mapping SourceColumn="Question10D" DataSetColumn="Հարց 10-բ" />
+              <Mapping SourceColumn="Question11C" DataSetColumn="Հարց 11-ա" />
+              <Mapping SourceColumn="Question11D" DataSetColumn="Հարց 11-բ" />
+              <Mapping SourceColumn="Question12C" DataSetColumn="Հարց 12-ա" />
+              <Mapping SourceColumn="Question12D" DataSetColumn="Հարց 12-բ" />
+              <Mapping SourceColumn="Question13C" DataSetColumn="Հարց 13-ա" />
+              <Mapping SourceColumn="Question13D" DataSetColumn="Հարց 13-բ" />
+              <Mapping SourceColumn="Question14C" DataSetColumn="Հարց 14-ա" />
+              <Mapping SourceColumn="Question14D" DataSetColumn="Հարց 14-բ" />
+              <Mapping SourceColumn="Question15C" DataSetColumn="Հարց 15-ա" />
+              <Mapping SourceColumn="Question15D" DataSetColumn="Հարց 15-բ" />
+              <Mapping SourceColumn="Question16C" DataSetColumn="Հարց 16-ա" />
+              <Mapping SourceColumn="Question16D" DataSetColumn="Հարց 16-բ" />
+              <Mapping SourceColumn="Question17C" DataSetColumn="Հարց 17-ա" />
+              <Mapping SourceColumn="Question17D" DataSetColumn="Հարց 17-բ" />
+              <Mapping SourceColumn="Question18C" DataSetColumn="Հարց 18-ա" />
+              <Mapping SourceColumn="Question18D" DataSetColumn="Հարց 18-բ" />
+              <Mapping SourceColumn="Question19C" DataSetColumn="Հարց 19-ա" />
+              <Mapping SourceColumn="Question19D" DataSetColumn="Հարց 19-բ" />
+              <Mapping SourceColumn="Question20C" DataSetColumn="Հարց 20-ա" />
+              <Mapping SourceColumn="Question20D" DataSetColumn="Հարց 20-բ" />
+              <Mapping SourceColumn="Question21C" DataSetColumn="Հարց 21-ա" />
+              <Mapping SourceColumn="Question21D" DataSetColumn="Հարց 21-բ" />
+              <Mapping SourceColumn="Question22C" DataSetColumn="Հարց 22-ա" />
+              <Mapping SourceColumn="Question22D" DataSetColumn="Հարց 22-բ" />
+              <Mapping SourceColumn="Question23C" DataSetColumn="Հարց 23-ա" />
+              <Mapping SourceColumn="Question23D" DataSetColumn="Հարց 23-բ" />
+              <Mapping SourceColumn="Question24C" DataSetColumn="Հարց 24-ա" />
+              <Mapping SourceColumn="Question24D" DataSetColumn="Հարց 24-բ" />
+              <Mapping SourceColumn="Question25C" DataSetColumn="Հարց 25-ա" />
+              <Mapping SourceColumn="Question25D" DataSetColumn="Հարց 25-բ" />
+              <Mapping SourceColumn="Question26C" DataSetColumn="Հարց 26-ա" />
+              <Mapping SourceColumn="Question26D" DataSetColumn="Հարց 26-բ" />
+              <Mapping SourceColumn="Question27C" DataSetColumn="Հարց 27-ա" />
+              <Mapping SourceColumn="Question27D" DataSetColumn="Հարց 27-բ" />
+              <Mapping SourceColumn="Question28C" DataSetColumn="Հարց 28-ա" />
+              <Mapping SourceColumn="Question28D" DataSetColumn="Հարց 28-բ" />
+              <Mapping SourceColumn="Question29C" DataSetColumn="Հարց 29-ա" />
+              <Mapping SourceColumn="Question29D" DataSetColumn="Հարց 29-բ" />
+              <Mapping SourceColumn="Question30C" DataSetColumn="Հարց 30-ա" />
+              <Mapping SourceColumn="Question30D" DataSetColumn="Հարց 30-բ" />
+              <Mapping SourceColumn="Question31C" DataSetColumn="Հարց 31-ա" />
+              <Mapping SourceColumn="Question31D" DataSetColumn="Հարց 31-բ" />
+              <Mapping SourceColumn="Question32C" DataSetColumn="Հարց 32-ա" />
+              <Mapping SourceColumn="Question32D" DataSetColumn="Հարց 32-բ" />
+              <Mapping SourceColumn="Question33C" DataSetColumn="Հարց 33-ա" />
+              <Mapping SourceColumn="Question33D" DataSetColumn="Հարց 33-բ" />
+              <Mapping SourceColumn="Question34C" DataSetColumn="Հարց 34-ա" />
+              <Mapping SourceColumn="Question34D" DataSetColumn="Հարց 34-բ" />
+              <Mapping SourceColumn="Question35C" DataSetColumn="Հարց 35-ա" />
+              <Mapping SourceColumn="Question35D" DataSetColumn="Հարց 35-բ" />
+              <Mapping SourceColumn="Question36C" DataSetColumn="Հարց 36-ա" />
+              <Mapping SourceColumn="Question36D" DataSetColumn="Հարց 36-բ" />
+              <Mapping SourceColumn="Question37C" DataSetColumn="Հարց 37-ա" />
+              <Mapping SourceColumn="Question37D" DataSetColumn="Հարց 37-բ" />
+              <Mapping SourceColumn="Question38C" DataSetColumn="Հարց 38-ա" />
+              <Mapping SourceColumn="Question38D" DataSetColumn="Հարց 38-բ" />
+              <Mapping SourceColumn="Question39C" DataSetColumn="Հարց 39-ա" />
+              <Mapping SourceColumn="Question39D" DataSetColumn="Հարց 39-բ" />
+              <Mapping SourceColumn="Question40C" DataSetColumn="Հարց 40-ա" />
+              <Mapping SourceColumn="Question40D" DataSetColumn="Հարց 40-բ" />
+              <Mapping SourceColumn="Question41C" DataSetColumn="Հարց 41-ա" />
+              <Mapping SourceColumn="Question41D" DataSetColumn="Հարց 41-բ" />
+              <Mapping SourceColumn="Question42C" DataSetColumn="Հարց 42-ա" />
+              <Mapping SourceColumn="Question42D" DataSetColumn="Հարց 42-բ" />
+              <Mapping SourceColumn="CatalogX43_Name" DataSetColumn="Հարց 43" />
+              <Mapping SourceColumn="CatalogX44_Name" DataSetColumn="Հարց 44" />
+              <Mapping SourceColumn="CatalogX45_Name" DataSetColumn="Հարց 45" />
+              <Mapping SourceColumn="CatalogX46_Name" DataSetColumn="Հարց 46" />
+              <Mapping SourceColumn="CatalogX47_Name" DataSetColumn="Հարց 47" />
+              <Mapping SourceColumn="Question48" DataSetColumn="Հարց 48" />
+              <Mapping SourceColumn="Record_Status_Name" DataSetColumn="Տողի կարգավիճակ" />
+              <Mapping SourceColumn="Reviewer_Name" DataSetColumn="Հարցազրուցավար" />
+              <Mapping SourceColumn="Question_Date" DataSetColumn="Ամսաթիվ" />
+              <Mapping SourceColumn="User_Name" DataSetColumn="Մուտքագրող" />
+              <Mapping SourceColumn="Քանակ" DataSetColumn="Քանակ" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="StoreDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="StoreDataSet" msprop:Generator_UserDSName="StoreDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vQuestionT1" msprop:Generator_TableClassName="vQuestionT1DataTable" msprop:Generator_TableVarName="tablevQuestionT1" msprop:Generator_TablePropName="vQuestionT1" msprop:Generator_RowDeletingName="vQuestionT1RowDeleting" msprop:Generator_RowChangingName="vQuestionT1RowChanging" msprop:Generator_RowEvHandlerName="vQuestionT1RowChangeEventHandler" msprop:Generator_RowDeletedName="vQuestionT1RowDeleted" msprop:Generator_UserTableName="vQuestionT1" msprop:Generator_RowChangedName="vQuestionT1RowChanged" msprop:Generator_RowEvArgName="vQuestionT1RowChangeEvent" msprop:Generator_RowClassName="vQuestionT1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:Caption="QuestionT1_ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Հարցաթերթ" msdata:Caption="Question_Number" msprop:Generator_ColumnVarNameInTable="columnՀարցաթերթ" msprop:Generator_ColumnPropNameInRow="Հարցաթերթ" msprop:Generator_ColumnPropNameInTable="ՀարցաթերթColumn" msprop:Generator_UserColumnName="Հարցաթերթ" type="xs:string" minOccurs="0" />
+              <xs:element name="Դատարան" msdata:Caption="Court_Name" msprop:Generator_ColumnVarNameInTable="columnԴատարան" msprop:Generator_ColumnPropNameInRow="Դատարան" msprop:Generator_ColumnPropNameInTable="ԴատարանColumn" msprop:Generator_UserColumnName="Դատարան" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Սեռ" msdata:Caption="Gender_Name" msprop:Generator_ColumnVarNameInTable="columnՍեռ" msprop:Generator_ColumnPropNameInRow="Սեռ" msprop:Generator_ColumnPropNameInTable="ՍեռColumn" msprop:Generator_UserColumnName="Սեռ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Տարիքային_x0020_խումբ" msdata:Caption="Date_Interval_Name" msprop:Generator_ColumnVarNameInTable="columnՏարիքային_խումբ" msprop:Generator_ColumnPropNameInRow="Տարիքային_խումբ" msprop:Generator_ColumnPropNameInTable="Տարիքային_խումբColumn" msprop:Generator_UserColumnName="Տարիքային խումբ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_3" msdata:Caption="CatalogT3_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_3" msprop:Generator_ColumnPropNameInRow="Հարց_3" msprop:Generator_ColumnPropNameInTable="Հարց_3Column" msprop:Generator_UserColumnName="Հարց 3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_4" msdata:Caption="CatalogT4_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_4" msprop:Generator_ColumnPropNameInRow="Հարց_4" msprop:Generator_ColumnPropNameInTable="Հարց_4Column" msprop:Generator_UserColumnName="Հարց 4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_5" msdata:Caption="CatalogT5_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_5" msprop:Generator_ColumnPropNameInRow="Հարց_5" msprop:Generator_ColumnPropNameInTable="Հարց_5Column" msprop:Generator_UserColumnName="Հարց 5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_6" msdata:Caption="CatalogT6_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_6" msprop:Generator_ColumnPropNameInRow="Հարց_6" msprop:Generator_ColumnPropNameInTable="Հարց_6Column" msprop:Generator_UserColumnName="Հարց 6" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_7" msdata:Caption="CatalogT7_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_7" msprop:Generator_ColumnPropNameInRow="Հարց_7" msprop:Generator_ColumnPropNameInTable="Հարց_7Column" msprop:Generator_UserColumnName="Հարց 7" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_8" msdata:Caption="CatalogT8_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_8" msprop:Generator_ColumnPropNameInRow="Հարց_8" msprop:Generator_ColumnPropNameInTable="Հարց_8Column" msprop:Generator_UserColumnName="Հարց 8" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_9" msdata:Caption="CatalogT9_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_9" msprop:Generator_ColumnPropNameInRow="Հարց_9" msprop:Generator_ColumnPropNameInTable="Հարց_9Column" msprop:Generator_UserColumnName="Հարց 9" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_10" msdata:Caption="CatalogT10_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_10" msprop:Generator_ColumnPropNameInRow="Հարց_10" msprop:Generator_ColumnPropNameInTable="Հարց_10Column" msprop:Generator_UserColumnName="Հարց 10" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_11" msdata:Caption="Public_Lawyer_Service_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_11" msprop:Generator_ColumnPropNameInRow="Հարց_11" msprop:Generator_ColumnPropNameInTable="Հարց_11Column" msprop:Generator_UserColumnName="Հարց 11" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_12" msdata:Caption="Public_Lawyer_Service_Payment_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_12" msprop:Generator_ColumnPropNameInRow="Հարց_12" msprop:Generator_ColumnPropNameInTable="Հարց_12Column" msprop:Generator_UserColumnName="Հարց 12" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_13" msdata:Caption="Lawyer_Service_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_13" msprop:Generator_ColumnPropNameInRow="Հարց_13" msprop:Generator_ColumnPropNameInTable="Հարց_13Column" msprop:Generator_UserColumnName="Հարց 13" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_14" msdata:Caption="Question14" msprop:Generator_ColumnVarNameInTable="columnՀարց_14" msprop:Generator_ColumnPropNameInRow="Հարց_14" msprop:Generator_ColumnPropNameInTable="Հարց_14Column" msprop:Generator_UserColumnName="Հարց 14" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_15" msdata:Caption="Question15" msprop:Generator_ColumnVarNameInTable="columnՀարց_15" msprop:Generator_ColumnPropNameInRow="Հարց_15" msprop:Generator_ColumnPropNameInTable="Հարց_15Column" msprop:Generator_UserColumnName="Հարց 15" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_16" msdata:Caption="Question16" msprop:Generator_ColumnVarNameInTable="columnՀարց_16" msprop:Generator_ColumnPropNameInRow="Հարց_16" msprop:Generator_ColumnPropNameInTable="Հարց_16Column" msprop:Generator_UserColumnName="Հարց 16" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_17" msdata:Caption="Question17" msprop:Generator_ColumnVarNameInTable="columnՀարց_17" msprop:Generator_ColumnPropNameInRow="Հարց_17" msprop:Generator_ColumnPropNameInTable="Հարց_17Column" msprop:Generator_UserColumnName="Հարց 17" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_18" msdata:Caption="Question18" msprop:Generator_ColumnVarNameInTable="columnՀարց_18" msprop:Generator_ColumnPropNameInRow="Հարց_18" msprop:Generator_ColumnPropNameInTable="Հարց_18Column" msprop:Generator_UserColumnName="Հարց 18" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_19" msdata:Caption="Question19" msprop:Generator_ColumnVarNameInTable="columnՀարց_19" msprop:Generator_ColumnPropNameInRow="Հարց_19" msprop:Generator_ColumnPropNameInTable="Հարց_19Column" msprop:Generator_UserColumnName="Հարց 19" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_20" msdata:Caption="Question20" msprop:Generator_ColumnVarNameInTable="columnՀարց_20" msprop:Generator_ColumnPropNameInRow="Հարց_20" msprop:Generator_ColumnPropNameInTable="Հարց_20Column" msprop:Generator_UserColumnName="Հարց 20" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_21" msdata:Caption="Question21" msprop:Generator_ColumnVarNameInTable="columnՀարց_21" msprop:Generator_ColumnPropNameInRow="Հարց_21" msprop:Generator_ColumnPropNameInTable="Հարց_21Column" msprop:Generator_UserColumnName="Հարց 21" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_22" msdata:Caption="Question22" msprop:Generator_ColumnVarNameInTable="columnՀարց_22" msprop:Generator_ColumnPropNameInRow="Հարց_22" msprop:Generator_ColumnPropNameInTable="Հարց_22Column" msprop:Generator_UserColumnName="Հարց 22" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_23" msdata:Caption="Question23" msprop:Generator_ColumnVarNameInTable="columnՀարց_23" msprop:Generator_ColumnPropNameInRow="Հարց_23" msprop:Generator_ColumnPropNameInTable="Հարց_23Column" msprop:Generator_UserColumnName="Հարց 23" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_24" msdata:Caption="Question24" msprop:Generator_ColumnVarNameInTable="columnՀարց_24" msprop:Generator_ColumnPropNameInRow="Հարց_24" msprop:Generator_ColumnPropNameInTable="Հարց_24Column" msprop:Generator_UserColumnName="Հարց 24" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_25" msdata:Caption="Question25" msprop:Generator_ColumnVarNameInTable="columnՀարց_25" msprop:Generator_ColumnPropNameInRow="Հարց_25" msprop:Generator_ColumnPropNameInTable="Հարց_25Column" msprop:Generator_UserColumnName="Հարց 25" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_26" msdata:Caption="Question26" msprop:Generator_ColumnVarNameInTable="columnՀարց_26" msprop:Generator_ColumnPropNameInRow="Հարց_26" msprop:Generator_ColumnPropNameInTable="Հարց_26Column" msprop:Generator_UserColumnName="Հարց 26" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_27" msdata:Caption="Question27" msprop:Generator_ColumnVarNameInTable="columnՀարց_27" msprop:Generator_ColumnPropNameInRow="Հարց_27" msprop:Generator_ColumnPropNameInTable="Հարց_27Column" msprop:Generator_UserColumnName="Հարց 27" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_28" msdata:Caption="Question28" msprop:Generator_ColumnVarNameInTable="columnՀարց_28" msprop:Generator_ColumnPropNameInRow="Հարց_28" msprop:Generator_ColumnPropNameInTable="Հարց_28Column" msprop:Generator_UserColumnName="Հարց 28" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_29" msdata:Caption="Question29" msprop:Generator_ColumnVarNameInTable="columnՀարց_29" msprop:Generator_ColumnPropNameInRow="Հարց_29" msprop:Generator_ColumnPropNameInTable="Հարց_29Column" msprop:Generator_UserColumnName="Հարց 29" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_30" msdata:Caption="CatalogT30_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_30" msprop:Generator_ColumnPropNameInRow="Հարց_30" msprop:Generator_ColumnPropNameInTable="Հարց_30Column" msprop:Generator_UserColumnName="Հարց 30" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_31" msdata:Caption="Question31" msprop:Generator_ColumnVarNameInTable="columnՀարց_31" msprop:Generator_ColumnPropNameInRow="Հարց_31" msprop:Generator_ColumnPropNameInTable="Հարց_31Column" msprop:Generator_UserColumnName="Հարց 31" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_32" msdata:Caption="Question32" msprop:Generator_ColumnVarNameInTable="columnՀարց_32" msprop:Generator_ColumnPropNameInRow="Հարց_32" msprop:Generator_ColumnPropNameInTable="Հարց_32Column" msprop:Generator_UserColumnName="Հարց 32" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_33" msdata:Caption="Question33" msprop:Generator_ColumnVarNameInTable="columnՀարց_33" msprop:Generator_ColumnPropNameInRow="Հարց_33" msprop:Generator_ColumnPropNameInTable="Հարց_33Column" msprop:Generator_UserColumnName="Հարց 33" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_34" msdata:Caption="Question34" msprop:Generator_ColumnVarNameInTable="columnՀարց_34" msprop:Generator_ColumnPropNameInRow="Հարց_34" msprop:Generator_ColumnPropNameInTable="Հարց_34Column" msprop:Generator_UserColumnName="Հարց 34" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_35" msdata:Caption="Question35" msprop:Generator_ColumnVarNameInTable="columnՀարց_35" msprop:Generator_ColumnPropNameInRow="Հարց_35" msprop:Generator_ColumnPropNameInTable="Հարց_35Column" msprop:Generator_UserColumnName="Հարց 35" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_36" msdata:Caption="Question36" msprop:Generator_ColumnVarNameInTable="columnՀարց_36" msprop:Generator_ColumnPropNameInRow="Հարց_36" msprop:Generator_ColumnPropNameInTable="Հարց_36Column" msprop:Generator_UserColumnName="Հարց 36" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_37" msdata:Caption="Question37" msprop:Generator_ColumnVarNameInTable="columnՀարց_37" msprop:Generator_ColumnPropNameInRow="Հարց_37" msprop:Generator_ColumnPropNameInTable="Հարց_37Column" msprop:Generator_UserColumnName="Հարց 37" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_38" msdata:Caption="Question38" msprop:Generator_ColumnVarNameInTable="columnՀարց_38" msprop:Generator_ColumnPropNameInRow="Հարց_38" msprop:Generator_ColumnPropNameInTable="Հարց_38Column" msprop:Generator_UserColumnName="Հարց 38" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_39" msdata:Caption="Question39" msprop:Generator_ColumnVarNameInTable="columnՀարց_39" msprop:Generator_ColumnPropNameInRow="Հարց_39" msprop:Generator_ColumnPropNameInTable="Հարց_39Column" msprop:Generator_UserColumnName="Հարց 39" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_40" msdata:Caption="Question40" msprop:Generator_ColumnVarNameInTable="columnՀարց_40" msprop:Generator_ColumnPropNameInRow="Հարց_40" msprop:Generator_ColumnPropNameInTable="Հարց_40Column" msprop:Generator_UserColumnName="Հարց 40" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_41" msdata:Caption="Question41" msprop:Generator_ColumnVarNameInTable="columnՀարց_41" msprop:Generator_ColumnPropNameInRow="Հարց_41" msprop:Generator_ColumnPropNameInTable="Հարց_41Column" msprop:Generator_UserColumnName="Հարց 41" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_42" msdata:Caption="Question42" msprop:Generator_ColumnVarNameInTable="columnՀարց_42" msprop:Generator_ColumnPropNameInRow="Հարց_42" msprop:Generator_ColumnPropNameInTable="Հարց_42Column" msprop:Generator_UserColumnName="Հարց 42" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_43" msdata:Caption="Question43" msprop:Generator_ColumnVarNameInTable="columnՀարց_43" msprop:Generator_ColumnPropNameInRow="Հարց_43" msprop:Generator_ColumnPropNameInTable="Հարց_43Column" msprop:Generator_UserColumnName="Հարց 43" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_44" msdata:Caption="Question44" msprop:Generator_ColumnVarNameInTable="columnՀարց_44" msprop:Generator_ColumnPropNameInRow="Հարց_44" msprop:Generator_ColumnPropNameInTable="Հարց_44Column" msprop:Generator_UserColumnName="Հարց 44" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_45" msdata:Caption="Question45" msprop:Generator_ColumnVarNameInTable="columnՀարց_45" msprop:Generator_ColumnPropNameInRow="Հարց_45" msprop:Generator_ColumnPropNameInTable="Հարց_45Column" msprop:Generator_UserColumnName="Հարց 45" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_46" msdata:Caption="Question46" msprop:Generator_ColumnVarNameInTable="columnՀարց_46" msprop:Generator_ColumnPropNameInRow="Հարց_46" msprop:Generator_ColumnPropNameInTable="Հարց_46Column" msprop:Generator_UserColumnName="Հարց 46" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_47" msdata:Caption="Question47" msprop:Generator_ColumnVarNameInTable="columnՀարց_47" msprop:Generator_ColumnPropNameInRow="Հարց_47" msprop:Generator_ColumnPropNameInTable="Հարց_47Column" msprop:Generator_UserColumnName="Հարց 47" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_48" msdata:Caption="Question48" msprop:Generator_ColumnVarNameInTable="columnՀարց_48" msprop:Generator_ColumnPropNameInRow="Հարց_48" msprop:Generator_ColumnPropNameInTable="Հարց_48Column" msprop:Generator_UserColumnName="Հարց 48" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_49" msdata:Caption="Question49" msprop:Generator_ColumnVarNameInTable="columnՀարց_49" msprop:Generator_ColumnPropNameInRow="Հարց_49" msprop:Generator_ColumnPropNameInTable="Հարց_49Column" msprop:Generator_UserColumnName="Հարց 49" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_51" msdata:Caption="Scan_Provision_Type_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_51" msprop:Generator_ColumnPropNameInRow="Հարց_51" msprop:Generator_ColumnPropNameInTable="Հարց_51Column" msprop:Generator_UserColumnName="Հարց 51" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_52" msdata:Caption="Scan_Provision_Cost_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_52" msprop:Generator_ColumnPropNameInRow="Հարց_52" msprop:Generator_ColumnPropNameInTable="Հարց_52Column" msprop:Generator_UserColumnName="Հարց 52" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_53" msdata:Caption="Resource_Estimation_Type_Name" msprop:Generator_ColumnVarNameInTable="columnՀարց_53" msprop:Generator_ColumnPropNameInRow="Հարց_53" msprop:Generator_ColumnPropNameInTable="Հարց_53Column" msprop:Generator_UserColumnName="Հարց 53" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_54" msdata:Caption="Question54" msprop:Generator_ColumnVarNameInTable="columnՀարց_54" msprop:Generator_ColumnPropNameInRow="Հարց_54" msprop:Generator_ColumnPropNameInTable="Հարց_54Column" msprop:Generator_UserColumnName="Հարց 54" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_55" msdata:Caption="Question55" msprop:Generator_ColumnVarNameInTable="columnՀարց_55" msprop:Generator_ColumnPropNameInRow="Հարց_55" msprop:Generator_ColumnPropNameInTable="Հարց_55Column" msprop:Generator_UserColumnName="Հարց 55" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Տողի_x0020_կարգավիճակ" msdata:Caption="Record_Status_Name" msprop:Generator_ColumnVarNameInTable="columnՏողի_կարգավիճակ" msprop:Generator_ColumnPropNameInRow="Տողի_կարգավիճակ" msprop:Generator_ColumnPropNameInTable="Տողի_կարգավիճակColumn" msprop:Generator_UserColumnName="Տողի կարգավիճակ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարցազրուցավար" msdata:Caption="Reviewer_Name" msprop:Generator_ColumnVarNameInTable="columnՀարցազրուցավար" msprop:Generator_ColumnPropNameInRow="Հարցազրուցավար" msprop:Generator_ColumnPropNameInTable="ՀարցազրուցավարColumn" msprop:Generator_UserColumnName="Հարցազրուցավար" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ամսաթիվ" msdata:Caption="Question_Date" msprop:Generator_ColumnVarNameInTable="columnԱմսաթիվ" msprop:Generator_ColumnPropNameInRow="Ամսաթիվ" msprop:Generator_ColumnPropNameInTable="ԱմսաթիվColumn" msprop:Generator_UserColumnName="Ամսաթիվ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Մուտքագրող" msdata:Caption="User_Name" msprop:Generator_ColumnVarNameInTable="columnՄուտքագրող" msprop:Generator_ColumnPropNameInRow="Մուտքագրող" msprop:Generator_ColumnPropNameInTable="ՄուտքագրողColumn" msprop:Generator_UserColumnName="Մուտքագրող" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Քանակ" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnՔանակ" msprop:Generator_ColumnPropNameInRow="Քանակ" msprop:Generator_ColumnPropNameInTable="ՔանակColumn" msprop:Generator_UserColumnName="Քանակ" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vQuestionT2" msprop:Generator_TableClassName="vQuestionT2DataTable" msprop:Generator_TableVarName="tablevQuestionT2" msprop:Generator_TablePropName="vQuestionT2" msprop:Generator_RowDeletingName="vQuestionT2RowDeleting" msprop:Generator_RowChangingName="vQuestionT2RowChanging" msprop:Generator_RowEvHandlerName="vQuestionT2RowChangeEventHandler" msprop:Generator_RowDeletedName="vQuestionT2RowDeleted" msprop:Generator_UserTableName="vQuestionT2" msprop:Generator_RowChangedName="vQuestionT2RowChanged" msprop:Generator_RowEvArgName="vQuestionT2RowChangeEvent" msprop:Generator_RowClassName="vQuestionT2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Հարցաթերթ" msprop:Generator_ColumnVarNameInTable="columnՀարցաթերթ" msprop:Generator_ColumnPropNameInRow="Հարցաթերթ" msprop:Generator_ColumnPropNameInTable="ՀարցաթերթColumn" msprop:Generator_UserColumnName="Հարցաթերթ" type="xs:string" minOccurs="0" />
+              <xs:element name="Դատարան" msprop:Generator_ColumnVarNameInTable="columnԴատարան" msprop:Generator_ColumnPropNameInRow="Դատարան" msprop:Generator_ColumnPropNameInTable="ԴատարանColumn" msprop:Generator_UserColumnName="Դատարան" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Սեռ" msprop:Generator_ColumnVarNameInTable="columnՍեռ" msprop:Generator_ColumnPropNameInRow="Սեռ" msprop:Generator_ColumnPropNameInTable="ՍեռColumn" msprop:Generator_UserColumnName="Սեռ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Տարիքային_x0020_խումբ" msprop:Generator_ColumnVarNameInTable="columnՏարիքային_խումբ" msprop:Generator_ColumnPropNameInRow="Տարիքային_խումբ" msprop:Generator_ColumnPropNameInTable="Տարիքային_խումբColumn" msprop:Generator_UserColumnName="Տարիքային խումբ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_3" msprop:Generator_ColumnVarNameInTable="columnՀարց_3" msprop:Generator_ColumnPropNameInRow="Հարց_3" msprop:Generator_ColumnPropNameInTable="Հարց_3Column" msprop:Generator_UserColumnName="Հարց 3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_4" msprop:Generator_ColumnVarNameInTable="columnՀարց_4" msprop:Generator_ColumnPropNameInRow="Հարց_4" msprop:Generator_ColumnPropNameInTable="Հարց_4Column" msprop:Generator_UserColumnName="Հարց 4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_5" msprop:Generator_ColumnVarNameInTable="columnՀարց_5" msprop:Generator_ColumnPropNameInRow="Հարց_5" msprop:Generator_ColumnPropNameInTable="Հարց_5Column" msprop:Generator_UserColumnName="Հարց 5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_6" msprop:Generator_ColumnVarNameInTable="columnՀարց_6" msprop:Generator_ColumnPropNameInRow="Հարց_6" msprop:Generator_ColumnPropNameInTable="Հարց_6Column" msprop:Generator_UserColumnName="Հարց 6" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_7" msprop:Generator_ColumnVarNameInTable="columnՀարց_7" msprop:Generator_ColumnPropNameInRow="Հարց_7" msprop:Generator_ColumnPropNameInTable="Հարց_7Column" msprop:Generator_UserColumnName="Հարց 7" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_8" msprop:Generator_ColumnVarNameInTable="columnՀարց_8" msprop:Generator_ColumnPropNameInRow="Հարց_8" msprop:Generator_ColumnPropNameInTable="Հարց_8Column" msprop:Generator_UserColumnName="Հարց 8" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_9" msprop:Generator_ColumnVarNameInTable="columnՀարց_9" msprop:Generator_ColumnPropNameInRow="Հարց_9" msprop:Generator_ColumnPropNameInTable="Հարց_9Column" msprop:Generator_UserColumnName="Հարց 9" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_10" msprop:Generator_ColumnVarNameInTable="columnՀարց_10" msprop:Generator_ColumnPropNameInRow="Հարց_10" msprop:Generator_ColumnPropNameInTable="Հարց_10Column" msprop:Generator_UserColumnName="Հարց 10" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_11" msprop:Generator_ColumnVarNameInTable="columnՀարց_11" msprop:Generator_ColumnPropNameInRow="Հարց_11" msprop:Generator_ColumnPropNameInTable="Հարց_11Column" msprop:Generator_UserColumnName="Հարց 11" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_12" msprop:Generator_ColumnVarNameInTable="columnՀարց_12" msprop:Generator_ColumnPropNameInRow="Հարց_12" msprop:Generator_ColumnPropNameInTable="Հարց_12Column" msprop:Generator_UserColumnName="Հարց 12" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_13" msprop:Generator_ColumnVarNameInTable="columnՀարց_13" msprop:Generator_ColumnPropNameInRow="Հարց_13" msprop:Generator_ColumnPropNameInTable="Հարց_13Column" msprop:Generator_UserColumnName="Հարց 13" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_14" msprop:Generator_ColumnVarNameInTable="columnՀարց_14" msprop:Generator_ColumnPropNameInRow="Հարց_14" msprop:Generator_ColumnPropNameInTable="Հարց_14Column" msprop:Generator_UserColumnName="Հարց 14" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_15" msprop:Generator_ColumnVarNameInTable="columnՀարց_15" msprop:Generator_ColumnPropNameInRow="Հարց_15" msprop:Generator_ColumnPropNameInTable="Հարց_15Column" msprop:Generator_UserColumnName="Հարց 15" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_16" msprop:Generator_ColumnVarNameInTable="columnՀարց_16" msprop:Generator_ColumnPropNameInRow="Հարց_16" msprop:Generator_ColumnPropNameInTable="Հարց_16Column" msprop:Generator_UserColumnName="Հարց 16" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_17" msprop:Generator_ColumnVarNameInTable="columnՀարց_17" msprop:Generator_ColumnPropNameInRow="Հարց_17" msprop:Generator_ColumnPropNameInTable="Հարց_17Column" msprop:Generator_UserColumnName="Հարց 17" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_18" msprop:Generator_ColumnVarNameInTable="columnՀարց_18" msprop:Generator_ColumnPropNameInRow="Հարց_18" msprop:Generator_ColumnPropNameInTable="Հարց_18Column" msprop:Generator_UserColumnName="Հարց 18" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_19" msprop:Generator_ColumnVarNameInTable="columnՀարց_19" msprop:Generator_ColumnPropNameInRow="Հարց_19" msprop:Generator_ColumnPropNameInTable="Հարց_19Column" msprop:Generator_UserColumnName="Հարց 19" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_20" msprop:Generator_ColumnVarNameInTable="columnՀարց_20" msprop:Generator_ColumnPropNameInRow="Հարց_20" msprop:Generator_ColumnPropNameInTable="Հարց_20Column" msprop:Generator_UserColumnName="Հարց 20" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_21" msprop:Generator_ColumnVarNameInTable="columnՀարց_21" msprop:Generator_ColumnPropNameInRow="Հարց_21" msprop:Generator_ColumnPropNameInTable="Հարց_21Column" msprop:Generator_UserColumnName="Հարց 21" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_22" msprop:Generator_ColumnVarNameInTable="columnՀարց_22" msprop:Generator_ColumnPropNameInRow="Հարց_22" msprop:Generator_ColumnPropNameInTable="Հարց_22Column" msprop:Generator_UserColumnName="Հարց 22" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_23" msprop:Generator_ColumnVarNameInTable="columnՀարց_23" msprop:Generator_ColumnPropNameInRow="Հարց_23" msprop:Generator_ColumnPropNameInTable="Հարց_23Column" msprop:Generator_UserColumnName="Հարց 23" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_24" msprop:Generator_ColumnVarNameInTable="columnՀարց_24" msprop:Generator_ColumnPropNameInRow="Հարց_24" msprop:Generator_ColumnPropNameInTable="Հարց_24Column" msprop:Generator_UserColumnName="Հարց 24" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_25" msprop:Generator_ColumnVarNameInTable="columnՀարց_25" msprop:Generator_ColumnPropNameInRow="Հարց_25" msprop:Generator_ColumnPropNameInTable="Հարց_25Column" msprop:Generator_UserColumnName="Հարց 25" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_26" msprop:Generator_ColumnVarNameInTable="columnՀարց_26" msprop:Generator_ColumnPropNameInRow="Հարց_26" msprop:Generator_ColumnPropNameInTable="Հարց_26Column" msprop:Generator_UserColumnName="Հարց 26" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_27" msprop:Generator_ColumnVarNameInTable="columnՀարց_27" msprop:Generator_ColumnPropNameInRow="Հարց_27" msprop:Generator_ColumnPropNameInTable="Հարց_27Column" msprop:Generator_UserColumnName="Հարց 27" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_28" msprop:Generator_ColumnVarNameInTable="columnՀարց_28" msprop:Generator_ColumnPropNameInRow="Հարց_28" msprop:Generator_ColumnPropNameInTable="Հարց_28Column" msprop:Generator_UserColumnName="Հարց 28" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_29" msprop:Generator_ColumnVarNameInTable="columnՀարց_29" msprop:Generator_ColumnPropNameInRow="Հարց_29" msprop:Generator_ColumnPropNameInTable="Հարց_29Column" msprop:Generator_UserColumnName="Հարց 29" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_30" msprop:Generator_ColumnVarNameInTable="columnՀարց_30" msprop:Generator_ColumnPropNameInRow="Հարց_30" msprop:Generator_ColumnPropNameInTable="Հարց_30Column" msprop:Generator_UserColumnName="Հարց 30" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_30-2" msprop:Generator_ColumnVarNameInTable="_columnՀարց_30_2" msprop:Generator_ColumnPropNameInRow="_Հարց_30_2" msprop:Generator_ColumnPropNameInTable="_Հարց_30_2Column" msprop:Generator_UserColumnName="Հարց 30-2" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_30-3" msprop:Generator_ColumnVarNameInTable="_columnՀարց_30_3" msprop:Generator_ColumnPropNameInRow="_Հարց_30_3" msprop:Generator_ColumnPropNameInTable="_Հարց_30_3Column" msprop:Generator_UserColumnName="Հարց 30-3" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_31" msprop:Generator_ColumnVarNameInTable="columnՀարց_31" msprop:Generator_ColumnPropNameInRow="Հարց_31" msprop:Generator_ColumnPropNameInTable="Հարց_31Column" msprop:Generator_UserColumnName="Հարց 31" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_31-2" msprop:Generator_ColumnVarNameInTable="_columnՀարց_31_2" msprop:Generator_ColumnPropNameInRow="_Հարց_31_2" msprop:Generator_ColumnPropNameInTable="_Հարց_31_2Column" msprop:Generator_UserColumnName="Հարց 31-2" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_31-3" msprop:Generator_ColumnVarNameInTable="_columnՀարց_31_3" msprop:Generator_ColumnPropNameInRow="_Հարց_31_3" msprop:Generator_ColumnPropNameInTable="_Հարց_31_3Column" msprop:Generator_UserColumnName="Հարց 31-3" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_32" msprop:Generator_ColumnVarNameInTable="columnՀարց_32" msprop:Generator_ColumnPropNameInRow="Հարց_32" msprop:Generator_ColumnPropNameInTable="Հարց_32Column" msprop:Generator_UserColumnName="Հարց 32" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_33" msprop:Generator_ColumnVarNameInTable="columnՀարց_33" msprop:Generator_ColumnPropNameInRow="Հարց_33" msprop:Generator_ColumnPropNameInTable="Հարց_33Column" msprop:Generator_UserColumnName="Հարց 33" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_34" msprop:Generator_ColumnVarNameInTable="columnՀարց_34" msprop:Generator_ColumnPropNameInRow="Հարց_34" msprop:Generator_ColumnPropNameInTable="Հարց_34Column" msprop:Generator_UserColumnName="Հարց 34" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_35" msprop:Generator_ColumnVarNameInTable="columnՀարց_35" msprop:Generator_ColumnPropNameInRow="Հարց_35" msprop:Generator_ColumnPropNameInTable="Հարց_35Column" msprop:Generator_UserColumnName="Հարց 35" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_36" msprop:Generator_ColumnVarNameInTable="columnՀարց_36" msprop:Generator_ColumnPropNameInRow="Հարց_36" msprop:Generator_ColumnPropNameInTable="Հարց_36Column" msprop:Generator_UserColumnName="Հարց 36" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_37" msprop:Generator_ColumnVarNameInTable="columnՀարց_37" msprop:Generator_ColumnPropNameInRow="Հարց_37" msprop:Generator_ColumnPropNameInTable="Հարց_37Column" msprop:Generator_UserColumnName="Հարց 37" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_38" msprop:Generator_ColumnVarNameInTable="columnՀարց_38" msprop:Generator_ColumnPropNameInRow="Հարց_38" msprop:Generator_ColumnPropNameInTable="Հարց_38Column" msprop:Generator_UserColumnName="Հարց 38" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_39" msprop:Generator_ColumnVarNameInTable="columnՀարց_39" msprop:Generator_ColumnPropNameInRow="Հարց_39" msprop:Generator_ColumnPropNameInTable="Հարց_39Column" msprop:Generator_UserColumnName="Հարց 39" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_40" msprop:Generator_ColumnVarNameInTable="columnՀարց_40" msprop:Generator_ColumnPropNameInRow="Հարց_40" msprop:Generator_ColumnPropNameInTable="Հարց_40Column" msprop:Generator_UserColumnName="Հարց 40" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_41" msprop:Generator_ColumnVarNameInTable="columnՀարց_41" msprop:Generator_ColumnPropNameInRow="Հարց_41" msprop:Generator_ColumnPropNameInTable="Հարց_41Column" msprop:Generator_UserColumnName="Հարց 41" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_42" msprop:Generator_ColumnVarNameInTable="columnՀարց_42" msprop:Generator_ColumnPropNameInRow="Հարց_42" msprop:Generator_ColumnPropNameInTable="Հարց_42Column" msprop:Generator_UserColumnName="Հարց 42" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_43" msprop:Generator_ColumnVarNameInTable="columnՀարց_43" msprop:Generator_ColumnPropNameInRow="Հարց_43" msprop:Generator_ColumnPropNameInTable="Հարց_43Column" msprop:Generator_UserColumnName="Հարց 43" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_44" msprop:Generator_ColumnVarNameInTable="columnՀարց_44" msprop:Generator_ColumnPropNameInRow="Հարց_44" msprop:Generator_ColumnPropNameInTable="Հարց_44Column" msprop:Generator_UserColumnName="Հարց 44" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_45" msprop:Generator_ColumnVarNameInTable="columnՀարց_45" msprop:Generator_ColumnPropNameInRow="Հարց_45" msprop:Generator_ColumnPropNameInTable="Հարց_45Column" msprop:Generator_UserColumnName="Հարց 45" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_46" msprop:Generator_ColumnVarNameInTable="columnՀարց_46" msprop:Generator_ColumnPropNameInRow="Հարց_46" msprop:Generator_ColumnPropNameInTable="Հարց_46Column" msprop:Generator_UserColumnName="Հարց 46" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_47" msprop:Generator_ColumnVarNameInTable="columnՀարց_47" msprop:Generator_ColumnPropNameInRow="Հարց_47" msprop:Generator_ColumnPropNameInTable="Հարց_47Column" msprop:Generator_UserColumnName="Հարց 47" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_48" msprop:Generator_ColumnVarNameInTable="columnՀարց_48" msprop:Generator_ColumnPropNameInRow="Հարց_48" msprop:Generator_ColumnPropNameInTable="Հարց_48Column" msprop:Generator_UserColumnName="Հարց 48" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_50" msprop:Generator_ColumnVarNameInTable="columnՀարց_50" msprop:Generator_ColumnPropNameInRow="Հարց_50" msprop:Generator_ColumnPropNameInTable="Հարց_50Column" msprop:Generator_UserColumnName="Հարց 50" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_51" msprop:Generator_ColumnVarNameInTable="columnՀարց_51" msprop:Generator_ColumnPropNameInRow="Հարց_51" msprop:Generator_ColumnPropNameInTable="Հարց_51Column" msprop:Generator_UserColumnName="Հարց 51" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_52" msprop:Generator_ColumnVarNameInTable="columnՀարց_52" msprop:Generator_ColumnPropNameInRow="Հարց_52" msprop:Generator_ColumnPropNameInTable="Հարց_52Column" msprop:Generator_UserColumnName="Հարց 52" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_53" msprop:Generator_ColumnVarNameInTable="columnՀարց_53" msprop:Generator_ColumnPropNameInRow="Հարց_53" msprop:Generator_ColumnPropNameInTable="Հարց_53Column" msprop:Generator_UserColumnName="Հարց 53" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_54" msprop:Generator_ColumnVarNameInTable="columnՀարց_54" msprop:Generator_ColumnPropNameInRow="Հարց_54" msprop:Generator_ColumnPropNameInTable="Հարց_54Column" msprop:Generator_UserColumnName="Հարց 54" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Տողի_x0020_կարգավիճակ" msprop:Generator_ColumnVarNameInTable="columnՏողի_կարգավիճակ" msprop:Generator_ColumnPropNameInRow="Տողի_կարգավիճակ" msprop:Generator_ColumnPropNameInTable="Տողի_կարգավիճակColumn" msprop:Generator_UserColumnName="Տողի կարգավիճակ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարցազրուցավար" msprop:Generator_ColumnVarNameInTable="columnՀարցազրուցավար" msprop:Generator_ColumnPropNameInRow="Հարցազրուցավար" msprop:Generator_ColumnPropNameInTable="ՀարցազրուցավարColumn" msprop:Generator_UserColumnName="Հարցազրուցավար" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ամսաթիվ" msprop:Generator_ColumnVarNameInTable="columnԱմսաթիվ" msprop:Generator_ColumnPropNameInRow="Ամսաթիվ" msprop:Generator_ColumnPropNameInTable="ԱմսաթիվColumn" msprop:Generator_UserColumnName="Ամսաթիվ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Մուտքագրող" msprop:Generator_ColumnVarNameInTable="columnՄուտքագրող" msprop:Generator_ColumnPropNameInRow="Մուտքագրող" msprop:Generator_ColumnPropNameInTable="ՄուտքագրողColumn" msprop:Generator_UserColumnName="Մուտքագրող" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Քանակ" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnՔանակ" msprop:Generator_ColumnPropNameInRow="Քանակ" msprop:Generator_ColumnPropNameInTable="ՔանակColumn" msprop:Generator_UserColumnName="Քանակ" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vQuestionT3" msprop:Generator_TableClassName="vQuestionT3DataTable" msprop:Generator_TableVarName="tablevQuestionT3" msprop:Generator_TablePropName="vQuestionT3" msprop:Generator_RowDeletingName="vQuestionT3RowDeleting" msprop:Generator_RowChangingName="vQuestionT3RowChanging" msprop:Generator_RowEvHandlerName="vQuestionT3RowChangeEventHandler" msprop:Generator_RowDeletedName="vQuestionT3RowDeleted" msprop:Generator_UserTableName="vQuestionT3" msprop:Generator_RowChangedName="vQuestionT3RowChanged" msprop:Generator_RowEvArgName="vQuestionT3RowChangeEvent" msprop:Generator_RowClassName="vQuestionT3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Հարցաթերթ" msprop:Generator_ColumnVarNameInTable="columnՀարցաթերթ" msprop:Generator_ColumnPropNameInRow="Հարցաթերթ" msprop:Generator_ColumnPropNameInTable="ՀարցաթերթColumn" msprop:Generator_UserColumnName="Հարցաթերթ" type="xs:string" minOccurs="0" />
+              <xs:element name="Դատարան" msprop:Generator_ColumnVarNameInTable="columnԴատարան" msprop:Generator_ColumnPropNameInRow="Դատարան" msprop:Generator_ColumnPropNameInTable="ԴատարանColumn" msprop:Generator_UserColumnName="Դատարան" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Սեռ" msprop:Generator_ColumnVarNameInTable="columnՍեռ" msprop:Generator_ColumnPropNameInRow="Սեռ" msprop:Generator_ColumnPropNameInTable="ՍեռColumn" msprop:Generator_UserColumnName="Սեռ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Տարիքային_x0020_խումբ" msprop:Generator_ColumnVarNameInTable="columnՏարիքային_խումբ" msprop:Generator_ColumnPropNameInRow="Տարիքային_խումբ" msprop:Generator_ColumnPropNameInTable="Տարիքային_խումբColumn" msprop:Generator_UserColumnName="Տարիքային խումբ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_3" msprop:Generator_ColumnVarNameInTable="columnՀարց_3" msprop:Generator_ColumnPropNameInRow="Հարց_3" msprop:Generator_ColumnPropNameInTable="Հարց_3Column" msprop:Generator_UserColumnName="Հարց 3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_4" msprop:Generator_ColumnVarNameInTable="columnՀարց_4" msprop:Generator_ColumnPropNameInRow="Հարց_4" msprop:Generator_ColumnPropNameInTable="Հարց_4Column" msprop:Generator_UserColumnName="Հարց 4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_5" msprop:Generator_ColumnVarNameInTable="columnՀարց_5" msprop:Generator_ColumnPropNameInRow="Հարց_5" msprop:Generator_ColumnPropNameInTable="Հարց_5Column" msprop:Generator_UserColumnName="Հարց 5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_6" msprop:Generator_ColumnVarNameInTable="columnՀարց_6" msprop:Generator_ColumnPropNameInRow="Հարց_6" msprop:Generator_ColumnPropNameInTable="Հարց_6Column" msprop:Generator_UserColumnName="Հարց 6" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_7" msprop:Generator_ColumnVarNameInTable="columnՀարց_7" msprop:Generator_ColumnPropNameInRow="Հարց_7" msprop:Generator_ColumnPropNameInTable="Հարց_7Column" msprop:Generator_UserColumnName="Հարց 7" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_8" msprop:Generator_ColumnVarNameInTable="columnՀարց_8" msprop:Generator_ColumnPropNameInRow="Հարց_8" msprop:Generator_ColumnPropNameInTable="Հարց_8Column" msprop:Generator_UserColumnName="Հարց 8" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_9" msprop:Generator_ColumnVarNameInTable="columnՀարց_9" msprop:Generator_ColumnPropNameInRow="Հարց_9" msprop:Generator_ColumnPropNameInTable="Հարց_9Column" msprop:Generator_UserColumnName="Հարց 9" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_10" msprop:Generator_ColumnVarNameInTable="columnՀարց_10" msprop:Generator_ColumnPropNameInRow="Հարց_10" msprop:Generator_ColumnPropNameInTable="Հարց_10Column" msprop:Generator_UserColumnName="Հարց 10" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_11" msprop:Generator_ColumnVarNameInTable="columnՀարց_11" msprop:Generator_ColumnPropNameInRow="Հարց_11" msprop:Generator_ColumnPropNameInTable="Հարց_11Column" msprop:Generator_UserColumnName="Հարց 11" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_12" msprop:Generator_ColumnVarNameInTable="columnՀարց_12" msprop:Generator_ColumnPropNameInRow="Հարց_12" msprop:Generator_ColumnPropNameInTable="Հարց_12Column" msprop:Generator_UserColumnName="Հարց 12" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_13" msprop:Generator_ColumnVarNameInTable="columnՀարց_13" msprop:Generator_ColumnPropNameInRow="Հարց_13" msprop:Generator_ColumnPropNameInTable="Հարց_13Column" msprop:Generator_UserColumnName="Հարց 13" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_14" msprop:Generator_ColumnVarNameInTable="columnՀարց_14" msprop:Generator_ColumnPropNameInRow="Հարց_14" msprop:Generator_ColumnPropNameInTable="Հարց_14Column" msprop:Generator_UserColumnName="Հարց 14" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_15" msprop:Generator_ColumnVarNameInTable="columnՀարց_15" msprop:Generator_ColumnPropNameInRow="Հարց_15" msprop:Generator_ColumnPropNameInTable="Հարց_15Column" msprop:Generator_UserColumnName="Հարց 15" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_16" msprop:Generator_ColumnVarNameInTable="columnՀարց_16" msprop:Generator_ColumnPropNameInRow="Հարց_16" msprop:Generator_ColumnPropNameInTable="Հարց_16Column" msprop:Generator_UserColumnName="Հարց 16" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_17" msprop:Generator_ColumnVarNameInTable="columnՀարց_17" msprop:Generator_ColumnPropNameInRow="Հարց_17" msprop:Generator_ColumnPropNameInTable="Հարց_17Column" msprop:Generator_UserColumnName="Հարց 17" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_18" msprop:Generator_ColumnVarNameInTable="columnՀարց_18" msprop:Generator_ColumnPropNameInRow="Հարց_18" msprop:Generator_ColumnPropNameInTable="Հարց_18Column" msprop:Generator_UserColumnName="Հարց 18" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_19" msprop:Generator_ColumnVarNameInTable="columnՀարց_19" msprop:Generator_ColumnPropNameInRow="Հարց_19" msprop:Generator_ColumnPropNameInTable="Հարց_19Column" msprop:Generator_UserColumnName="Հարց 19" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_20" msprop:Generator_ColumnVarNameInTable="columnՀարց_20" msprop:Generator_ColumnPropNameInRow="Հարց_20" msprop:Generator_ColumnPropNameInTable="Հարց_20Column" msprop:Generator_UserColumnName="Հարց 20" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_21" msprop:Generator_ColumnVarNameInTable="columnՀարց_21" msprop:Generator_ColumnPropNameInRow="Հարց_21" msprop:Generator_ColumnPropNameInTable="Հարց_21Column" msprop:Generator_UserColumnName="Հարց 21" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_22" msprop:Generator_ColumnVarNameInTable="columnՀարց_22" msprop:Generator_ColumnPropNameInRow="Հարց_22" msprop:Generator_ColumnPropNameInTable="Հարց_22Column" msprop:Generator_UserColumnName="Հարց 22" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_23" msprop:Generator_ColumnVarNameInTable="columnՀարց_23" msprop:Generator_ColumnPropNameInRow="Հարց_23" msprop:Generator_ColumnPropNameInTable="Հարց_23Column" msprop:Generator_UserColumnName="Հարց 23" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_24" msprop:Generator_ColumnVarNameInTable="columnՀարց_24" msprop:Generator_ColumnPropNameInRow="Հարց_24" msprop:Generator_ColumnPropNameInTable="Հարց_24Column" msprop:Generator_UserColumnName="Հարց 24" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_25" msprop:Generator_ColumnVarNameInTable="columnՀարց_25" msprop:Generator_ColumnPropNameInRow="Հարց_25" msprop:Generator_ColumnPropNameInTable="Հարց_25Column" msprop:Generator_UserColumnName="Հարց 25" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_26" msprop:Generator_ColumnVarNameInTable="columnՀարց_26" msprop:Generator_ColumnPropNameInRow="Հարց_26" msprop:Generator_ColumnPropNameInTable="Հարց_26Column" msprop:Generator_UserColumnName="Հարց 26" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_27" msprop:Generator_ColumnVarNameInTable="columnՀարց_27" msprop:Generator_ColumnPropNameInRow="Հարց_27" msprop:Generator_ColumnPropNameInTable="Հարց_27Column" msprop:Generator_UserColumnName="Հարց 27" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_28" msprop:Generator_ColumnVarNameInTable="columnՀարց_28" msprop:Generator_ColumnPropNameInRow="Հարց_28" msprop:Generator_ColumnPropNameInTable="Հարց_28Column" msprop:Generator_UserColumnName="Հարց 28" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_29" msprop:Generator_ColumnVarNameInTable="columnՀարց_29" msprop:Generator_ColumnPropNameInRow="Հարց_29" msprop:Generator_ColumnPropNameInTable="Հարց_29Column" msprop:Generator_UserColumnName="Հարց 29" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_29-2" msprop:Generator_ColumnVarNameInTable="_columnՀարց_29_2" msprop:Generator_ColumnPropNameInRow="_Հարց_29_2" msprop:Generator_ColumnPropNameInTable="_Հարց_29_2Column" msprop:Generator_UserColumnName="Հարց 29-2" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_30" msprop:Generator_ColumnVarNameInTable="columnՀարց_30" msprop:Generator_ColumnPropNameInRow="Հարց_30" msprop:Generator_ColumnPropNameInTable="Հարց_30Column" msprop:Generator_UserColumnName="Հարց 30" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_30-2" msprop:Generator_ColumnVarNameInTable="_columnՀարց_30_2" msprop:Generator_ColumnPropNameInRow="_Հարց_30_2" msprop:Generator_ColumnPropNameInTable="_Հարց_30_2Column" msprop:Generator_UserColumnName="Հարց 30-2" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_31" msprop:Generator_ColumnVarNameInTable="columnՀարց_31" msprop:Generator_ColumnPropNameInRow="Հարց_31" msprop:Generator_ColumnPropNameInTable="Հարց_31Column" msprop:Generator_UserColumnName="Հարց 31" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_32" msprop:Generator_ColumnVarNameInTable="columnՀարց_32" msprop:Generator_ColumnPropNameInRow="Հարց_32" msprop:Generator_ColumnPropNameInTable="Հարց_32Column" msprop:Generator_UserColumnName="Հարց 32" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_33" msprop:Generator_ColumnVarNameInTable="columnՀարց_33" msprop:Generator_ColumnPropNameInRow="Հարց_33" msprop:Generator_ColumnPropNameInTable="Հարց_33Column" msprop:Generator_UserColumnName="Հարց 33" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_34" msprop:Generator_ColumnVarNameInTable="columnՀարց_34" msprop:Generator_ColumnPropNameInRow="Հարց_34" msprop:Generator_ColumnPropNameInTable="Հարց_34Column" msprop:Generator_UserColumnName="Հարց 34" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_35" msprop:Generator_ColumnVarNameInTable="columnՀարց_35" msprop:Generator_ColumnPropNameInRow="Հարց_35" msprop:Generator_ColumnPropNameInTable="Հարց_35Column" msprop:Generator_UserColumnName="Հարց 35" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_36" msprop:Generator_ColumnVarNameInTable="columnՀարց_36" msprop:Generator_ColumnPropNameInRow="Հարց_36" msprop:Generator_ColumnPropNameInTable="Հարց_36Column" msprop:Generator_UserColumnName="Հարց 36" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_37" msprop:Generator_ColumnVarNameInTable="columnՀարց_37" msprop:Generator_ColumnPropNameInRow="Հարց_37" msprop:Generator_ColumnPropNameInTable="Հարց_37Column" msprop:Generator_UserColumnName="Հարց 37" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_38" msprop:Generator_ColumnVarNameInTable="columnՀարց_38" msprop:Generator_ColumnPropNameInRow="Հարց_38" msprop:Generator_ColumnPropNameInTable="Հարց_38Column" msprop:Generator_UserColumnName="Հարց 38" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_39" msprop:Generator_ColumnVarNameInTable="columnՀարց_39" msprop:Generator_ColumnPropNameInRow="Հարց_39" msprop:Generator_ColumnPropNameInTable="Հարց_39Column" msprop:Generator_UserColumnName="Հարց 39" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_40" msprop:Generator_ColumnVarNameInTable="columnՀարց_40" msprop:Generator_ColumnPropNameInRow="Հարց_40" msprop:Generator_ColumnPropNameInTable="Հարց_40Column" msprop:Generator_UserColumnName="Հարց 40" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_41" msprop:Generator_ColumnVarNameInTable="columnՀարց_41" msprop:Generator_ColumnPropNameInRow="Հարց_41" msprop:Generator_ColumnPropNameInTable="Հարց_41Column" msprop:Generator_UserColumnName="Հարց 41" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_42" msprop:Generator_ColumnVarNameInTable="columnՀարց_42" msprop:Generator_ColumnPropNameInRow="Հարց_42" msprop:Generator_ColumnPropNameInTable="Հարց_42Column" msprop:Generator_UserColumnName="Հարց 42" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_43" msprop:Generator_ColumnVarNameInTable="columnՀարց_43" msprop:Generator_ColumnPropNameInRow="Հարց_43" msprop:Generator_ColumnPropNameInTable="Հարց_43Column" msprop:Generator_UserColumnName="Հարց 43" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_44" msprop:Generator_ColumnVarNameInTable="columnՀարց_44" msprop:Generator_ColumnPropNameInRow="Հարց_44" msprop:Generator_ColumnPropNameInTable="Հարց_44Column" msprop:Generator_UserColumnName="Հարց 44" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_45" msprop:Generator_ColumnVarNameInTable="columnՀարց_45" msprop:Generator_ColumnPropNameInRow="Հարց_45" msprop:Generator_ColumnPropNameInTable="Հարց_45Column" msprop:Generator_UserColumnName="Հարց 45" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_46" msprop:Generator_ColumnVarNameInTable="columnՀարց_46" msprop:Generator_ColumnPropNameInRow="Հարց_46" msprop:Generator_ColumnPropNameInTable="Հարց_46Column" msprop:Generator_UserColumnName="Հարց 46" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_47" msprop:Generator_ColumnVarNameInTable="columnՀարց_47" msprop:Generator_ColumnPropNameInRow="Հարց_47" msprop:Generator_ColumnPropNameInTable="Հարց_47Column" msprop:Generator_UserColumnName="Հարց 47" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_49" msprop:Generator_ColumnVarNameInTable="columnՀարց_49" msprop:Generator_ColumnPropNameInRow="Հարց_49" msprop:Generator_ColumnPropNameInTable="Հարց_49Column" msprop:Generator_UserColumnName="Հարց 49" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_50" msprop:Generator_ColumnVarNameInTable="columnՀարց_50" msprop:Generator_ColumnPropNameInRow="Հարց_50" msprop:Generator_ColumnPropNameInTable="Հարց_50Column" msprop:Generator_UserColumnName="Հարց 50" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_51" msprop:Generator_ColumnVarNameInTable="columnՀարց_51" msprop:Generator_ColumnPropNameInRow="Հարց_51" msprop:Generator_ColumnPropNameInTable="Հարց_51Column" msprop:Generator_UserColumnName="Հարց 51" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_52" msprop:Generator_ColumnVarNameInTable="columnՀարց_52" msprop:Generator_ColumnPropNameInRow="Հարց_52" msprop:Generator_ColumnPropNameInTable="Հարց_52Column" msprop:Generator_UserColumnName="Հարց 52" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_53" msprop:Generator_ColumnVarNameInTable="columnՀարց_53" msprop:Generator_ColumnPropNameInRow="Հարց_53" msprop:Generator_ColumnPropNameInTable="Հարց_53Column" msprop:Generator_UserColumnName="Հարց 53" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Տողի_x0020_կարգավիճակ" msprop:Generator_ColumnVarNameInTable="columnՏողի_կարգավիճակ" msprop:Generator_ColumnPropNameInRow="Տողի_կարգավիճակ" msprop:Generator_ColumnPropNameInTable="Տողի_կարգավիճակColumn" msprop:Generator_UserColumnName="Տողի կարգավիճակ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարցազրուցավար" msprop:Generator_ColumnVarNameInTable="columnՀարցազրուցավար" msprop:Generator_ColumnPropNameInRow="Հարցազրուցավար" msprop:Generator_ColumnPropNameInTable="ՀարցազրուցավարColumn" msprop:Generator_UserColumnName="Հարցազրուցավար" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ամսաթիվ" msprop:Generator_ColumnVarNameInTable="columnԱմսաթիվ" msprop:Generator_ColumnPropNameInRow="Ամսաթիվ" msprop:Generator_ColumnPropNameInTable="ԱմսաթիվColumn" msprop:Generator_UserColumnName="Ամսաթիվ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Մուտքագրող" msprop:Generator_ColumnVarNameInTable="columnՄուտքագրող" msprop:Generator_ColumnPropNameInRow="Մուտքագրող" msprop:Generator_ColumnPropNameInTable="ՄուտքագրողColumn" msprop:Generator_UserColumnName="Մուտքագրող" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Քանակ" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnՔանակ" msprop:Generator_ColumnPropNameInRow="Քանակ" msprop:Generator_ColumnPropNameInTable="ՔանակColumn" msprop:Generator_UserColumnName="Քանակ" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vQuestionX" msprop:Generator_TableClassName="vQuestionXDataTable" msprop:Generator_TableVarName="tablevQuestionX" msprop:Generator_TablePropName="vQuestionX" msprop:Generator_RowDeletingName="vQuestionXRowDeleting" msprop:Generator_RowChangingName="vQuestionXRowChanging" msprop:Generator_RowEvHandlerName="vQuestionXRowChangeEventHandler" msprop:Generator_RowDeletedName="vQuestionXRowDeleted" msprop:Generator_UserTableName="vQuestionX" msprop:Generator_RowChangedName="vQuestionXRowChanged" msprop:Generator_RowEvArgName="vQuestionXRowChangeEvent" msprop:Generator_RowClassName="vQuestionXRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Հարցաթերթ" msprop:Generator_ColumnVarNameInTable="columnՀարցաթերթ" msprop:Generator_ColumnPropNameInRow="Հարցաթերթ" msprop:Generator_ColumnPropNameInTable="ՀարցաթերթColumn" msprop:Generator_UserColumnName="Հարցաթերթ" type="xs:string" minOccurs="0" />
+              <xs:element name="Դատարան" msprop:Generator_ColumnVarNameInTable="columnԴատարան" msprop:Generator_ColumnPropNameInRow="Դատարան" msprop:Generator_ColumnPropNameInTable="ԴատարանColumn" msprop:Generator_UserColumnName="Դատարան" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Սեռ" msprop:Generator_ColumnVarNameInTable="columnՍեռ" msprop:Generator_ColumnPropNameInRow="Սեռ" msprop:Generator_ColumnPropNameInTable="ՍեռColumn" msprop:Generator_UserColumnName="Սեռ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Տարիքային_x0020_խումբ" msprop:Generator_ColumnVarNameInTable="columnՏարիքային_խումբ" msprop:Generator_ColumnPropNameInRow="Տարիքային_խումբ" msprop:Generator_ColumnPropNameInTable="Տարիքային_խումբColumn" msprop:Generator_UserColumnName="Տարիքային խումբ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_3" msprop:Generator_ColumnVarNameInTable="columnՀարց_3" msprop:Generator_ColumnPropNameInRow="Հարց_3" msprop:Generator_ColumnPropNameInTable="Հարց_3Column" msprop:Generator_UserColumnName="Հարց 3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_4" msprop:Generator_ColumnVarNameInTable="columnՀարց_4" msprop:Generator_ColumnPropNameInRow="Հարց_4" msprop:Generator_ColumnPropNameInTable="Հարց_4Column" msprop:Generator_UserColumnName="Հարց 4" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_5-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_5_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_5_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_5_աColumn" msprop:Generator_UserColumnName="Հարց 5-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_5-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_5_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_5_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_5_բColumn" msprop:Generator_UserColumnName="Հարց 5-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_6-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_6_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_6_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_6_աColumn" msprop:Generator_UserColumnName="Հարց 6-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_6-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_6_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_6_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_6_բColumn" msprop:Generator_UserColumnName="Հարց 6-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_7-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_7_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_7_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_7_աColumn" msprop:Generator_UserColumnName="Հարց 7-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_7-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_7_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_7_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_7_բColumn" msprop:Generator_UserColumnName="Հարց 7-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_8-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_8_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_8_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_8_աColumn" msprop:Generator_UserColumnName="Հարց 8-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_8-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_8_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_8_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_8_բColumn" msprop:Generator_UserColumnName="Հարց 8-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_9-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_9_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_9_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_9_աColumn" msprop:Generator_UserColumnName="Հարց 9-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_9-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_9_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_9_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_9_բColumn" msprop:Generator_UserColumnName="Հարց 9-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_10-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_10_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_10_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_10_աColumn" msprop:Generator_UserColumnName="Հարց 10-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_10-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_10_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_10_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_10_բColumn" msprop:Generator_UserColumnName="Հարց 10-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_11-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_11_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_11_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_11_աColumn" msprop:Generator_UserColumnName="Հարց 11-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_11-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_11_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_11_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_11_բColumn" msprop:Generator_UserColumnName="Հարց 11-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_12-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_12_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_12_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_12_աColumn" msprop:Generator_UserColumnName="Հարց 12-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_12-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_12_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_12_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_12_բColumn" msprop:Generator_UserColumnName="Հարց 12-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_13-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_13_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_13_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_13_աColumn" msprop:Generator_UserColumnName="Հարց 13-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_13-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_13_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_13_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_13_բColumn" msprop:Generator_UserColumnName="Հարց 13-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_14-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_14_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_14_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_14_աColumn" msprop:Generator_UserColumnName="Հարց 14-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_14-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_14_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_14_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_14_բColumn" msprop:Generator_UserColumnName="Հարց 14-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_15-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_15_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_15_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_15_աColumn" msprop:Generator_UserColumnName="Հարց 15-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_15-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_15_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_15_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_15_բColumn" msprop:Generator_UserColumnName="Հարց 15-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_16-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_16_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_16_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_16_աColumn" msprop:Generator_UserColumnName="Հարց 16-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_16-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_16_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_16_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_16_բColumn" msprop:Generator_UserColumnName="Հարց 16-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_17-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_17_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_17_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_17_աColumn" msprop:Generator_UserColumnName="Հարց 17-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_17-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_17_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_17_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_17_բColumn" msprop:Generator_UserColumnName="Հարց 17-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_18-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_18_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_18_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_18_աColumn" msprop:Generator_UserColumnName="Հարց 18-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_18-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_18_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_18_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_18_բColumn" msprop:Generator_UserColumnName="Հարց 18-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_19-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_19_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_19_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_19_աColumn" msprop:Generator_UserColumnName="Հարց 19-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_19-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_19_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_19_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_19_բColumn" msprop:Generator_UserColumnName="Հարց 19-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_20-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_20_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_20_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_20_աColumn" msprop:Generator_UserColumnName="Հարց 20-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_20-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_20_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_20_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_20_բColumn" msprop:Generator_UserColumnName="Հարց 20-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_21-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_21_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_21_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_21_աColumn" msprop:Generator_UserColumnName="Հարց 21-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_21-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_21_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_21_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_21_բColumn" msprop:Generator_UserColumnName="Հարց 21-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_22-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_22_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_22_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_22_աColumn" msprop:Generator_UserColumnName="Հարց 22-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_22-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_22_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_22_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_22_բColumn" msprop:Generator_UserColumnName="Հարց 22-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_23-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_23_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_23_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_23_աColumn" msprop:Generator_UserColumnName="Հարց 23-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_23-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_23_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_23_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_23_բColumn" msprop:Generator_UserColumnName="Հարց 23-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_24-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_24_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_24_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_24_աColumn" msprop:Generator_UserColumnName="Հարց 24-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_24-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_24_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_24_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_24_բColumn" msprop:Generator_UserColumnName="Հարց 24-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_25-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_25_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_25_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_25_աColumn" msprop:Generator_UserColumnName="Հարց 25-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_25-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_25_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_25_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_25_բColumn" msprop:Generator_UserColumnName="Հարց 25-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_26-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_26_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_26_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_26_աColumn" msprop:Generator_UserColumnName="Հարց 26-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_26-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_26_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_26_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_26_բColumn" msprop:Generator_UserColumnName="Հարց 26-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_27-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_27_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_27_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_27_աColumn" msprop:Generator_UserColumnName="Հարց 27-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_27-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_27_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_27_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_27_բColumn" msprop:Generator_UserColumnName="Հարց 27-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_28-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_28_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_28_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_28_աColumn" msprop:Generator_UserColumnName="Հարց 28-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_28-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_28_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_28_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_28_բColumn" msprop:Generator_UserColumnName="Հարց 28-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_29-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_29_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_29_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_29_աColumn" msprop:Generator_UserColumnName="Հարց 29-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_29-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_29_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_29_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_29_բColumn" msprop:Generator_UserColumnName="Հարց 29-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_30-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_30_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_30_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_30_աColumn" msprop:Generator_UserColumnName="Հարց 30-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_30-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_30_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_30_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_30_բColumn" msprop:Generator_UserColumnName="Հարց 30-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_31-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_31_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_31_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_31_աColumn" msprop:Generator_UserColumnName="Հարց 31-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_31-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_31_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_31_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_31_բColumn" msprop:Generator_UserColumnName="Հարց 31-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_32-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_32_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_32_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_32_աColumn" msprop:Generator_UserColumnName="Հարց 32-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_32-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_32_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_32_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_32_բColumn" msprop:Generator_UserColumnName="Հարց 32-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_33-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_33_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_33_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_33_աColumn" msprop:Generator_UserColumnName="Հարց 33-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_33-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_33_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_33_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_33_բColumn" msprop:Generator_UserColumnName="Հարց 33-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_34-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_34_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_34_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_34_աColumn" msprop:Generator_UserColumnName="Հարց 34-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_34-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_34_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_34_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_34_բColumn" msprop:Generator_UserColumnName="Հարց 34-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_35-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_35_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_35_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_35_աColumn" msprop:Generator_UserColumnName="Հարց 35-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_35-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_35_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_35_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_35_բColumn" msprop:Generator_UserColumnName="Հարց 35-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_36-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_36_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_36_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_36_աColumn" msprop:Generator_UserColumnName="Հարց 36-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_36-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_36_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_36_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_36_բColumn" msprop:Generator_UserColumnName="Հարց 36-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_37-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_37_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_37_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_37_աColumn" msprop:Generator_UserColumnName="Հարց 37-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_37-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_37_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_37_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_37_բColumn" msprop:Generator_UserColumnName="Հարց 37-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_38-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_38_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_38_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_38_աColumn" msprop:Generator_UserColumnName="Հարց 38-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_38-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_38_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_38_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_38_բColumn" msprop:Generator_UserColumnName="Հարց 38-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_39-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_39_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_39_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_39_աColumn" msprop:Generator_UserColumnName="Հարց 39-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_39-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_39_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_39_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_39_բColumn" msprop:Generator_UserColumnName="Հարց 39-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_40-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_40_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_40_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_40_աColumn" msprop:Generator_UserColumnName="Հարց 40-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_40-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_40_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_40_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_40_բColumn" msprop:Generator_UserColumnName="Հարց 40-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_41-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_41_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_41_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_41_աColumn" msprop:Generator_UserColumnName="Հարց 41-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_41-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_41_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_41_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_41_բColumn" msprop:Generator_UserColumnName="Հարց 41-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_42-ա" msprop:Generator_ColumnVarNameInTable="_columnՀարց_42_ա" msprop:Generator_ColumnPropNameInRow="_Հարց_42_ա" msprop:Generator_ColumnPropNameInTable="_Հարց_42_աColumn" msprop:Generator_UserColumnName="Հարց 42-ա" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_42-բ" msprop:Generator_ColumnVarNameInTable="_columnՀարց_42_բ" msprop:Generator_ColumnPropNameInRow="_Հարց_42_բ" msprop:Generator_ColumnPropNameInTable="_Հարց_42_բColumn" msprop:Generator_UserColumnName="Հարց 42-բ" type="xs:int" minOccurs="0" />
+              <xs:element name="Հարց_x0020_43" msprop:Generator_ColumnVarNameInTable="columnՀարց_43" msprop:Generator_ColumnPropNameInRow="Հարց_43" msprop:Generator_ColumnPropNameInTable="Հարց_43Column" msprop:Generator_UserColumnName="Հարց 43" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_44" msprop:Generator_ColumnVarNameInTable="columnՀարց_44" msprop:Generator_ColumnPropNameInRow="Հարց_44" msprop:Generator_ColumnPropNameInTable="Հարց_44Column" msprop:Generator_UserColumnName="Հարց 44" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_45" msprop:Generator_ColumnVarNameInTable="columnՀարց_45" msprop:Generator_ColumnPropNameInRow="Հարց_45" msprop:Generator_ColumnPropNameInTable="Հարց_45Column" msprop:Generator_UserColumnName="Հարց 45" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_46" msprop:Generator_ColumnVarNameInTable="columnՀարց_46" msprop:Generator_ColumnPropNameInRow="Հարց_46" msprop:Generator_ColumnPropNameInTable="Հարց_46Column" msprop:Generator_UserColumnName="Հարց 46" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_47" msprop:Generator_ColumnVarNameInTable="columnՀարց_47" msprop:Generator_ColumnPropNameInRow="Հարց_47" msprop:Generator_ColumnPropNameInTable="Հարց_47Column" msprop:Generator_UserColumnName="Հարց 47" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարց_x0020_48" msprop:Generator_ColumnVarNameInTable="columnՀարց_48" msprop:Generator_ColumnPropNameInRow="Հարց_48" msprop:Generator_ColumnPropNameInTable="Հարց_48Column" msprop:Generator_UserColumnName="Հարց 48" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Տողի_x0020_կարգավիճակ" msprop:Generator_ColumnVarNameInTable="columnՏողի_կարգավիճակ" msprop:Generator_ColumnPropNameInRow="Տողի_կարգավիճակ" msprop:Generator_ColumnPropNameInTable="Տողի_կարգավիճակColumn" msprop:Generator_UserColumnName="Տողի կարգավիճակ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Հարցազրուցավար" msprop:Generator_ColumnVarNameInTable="columnՀարցազրուցավար" msprop:Generator_ColumnPropNameInRow="Հարցազրուցավար" msprop:Generator_ColumnPropNameInTable="ՀարցազրուցավարColumn" msprop:Generator_UserColumnName="Հարցազրուցավար" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ամսաթիվ" msprop:Generator_ColumnVarNameInTable="columnԱմսաթիվ" msprop:Generator_ColumnPropNameInRow="Ամսաթիվ" msprop:Generator_ColumnPropNameInTable="ԱմսաթիվColumn" msprop:Generator_UserColumnName="Ամսաթիվ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Մուտքագրող" msprop:Generator_ColumnVarNameInTable="columnՄուտքագրող" msprop:Generator_ColumnPropNameInRow="Մուտքագրող" msprop:Generator_ColumnPropNameInTable="ՄուտքագրողColumn" msprop:Generator_UserColumnName="Մուտքագրող" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Քանակ" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnՔանակ" msprop:Generator_ColumnPropNameInRow="Քանակ" msprop:Generator_ColumnPropNameInTable="ՔանակColumn" msprop:Generator_UserColumnName="Քանակ" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vQuestionT1" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="vQuestionT2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vQuestionT2" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="vQuestionT3_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vQuestionT3" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="vQuestionX_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vQuestionX" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

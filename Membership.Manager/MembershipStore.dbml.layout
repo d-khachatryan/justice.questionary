@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MembershipStore">
+  <DataContextMoniker Name="/MembershipStoreDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0d01dd51-8eec-44cd-90f3-27877c5f7749" absoluteBounds="1.25, 1.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MembershipStoreDataContext/vaspnet_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0a3515f0-f165-4c3c-9ed9-22dfc10a142d" absoluteBounds="1.2650000000000001, 1.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de570ac8-bb41-47d6-ae85-60519a2ab93f" absoluteBounds="7, 1.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MembershipStoreDataContext/vaspnet_Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4b659cd2-2bfb-4a95-985b-4a5ad1038e77" absoluteBounds="7.015, 1.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="def93680-fea7-49b5-99fd-a8ccbb98be08" absoluteBounds="4, 1.625, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/MembershipStoreDataContext/vaspnet_UsersInRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="268b636a-130d-4f6e-84a3-e664338f90f5" absoluteBounds="4.015, 2.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
